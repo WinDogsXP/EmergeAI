@@ -3,6 +3,7 @@ import React from "react";
 import { Fab, Stack, IconButton, Typography, Paper } from "@mui/material";
 import MicIcon from "@mui/icons-material/Mic";
 import Stop from "@mui/icons-material/Stop";
+import AudioRecorder from "./AudioRecorder";
 
 export default function ReceptionPageClient() {
     const [recording, setRecording] = React.useState(false);
@@ -21,7 +22,7 @@ export default function ReceptionPageClient() {
                 <Typography variant="h5" align="center">
                     Automatic Data Entry
                 </Typography>
-
+                <AudioRecorder></AudioRecorder>
                 <Stack
                     direction="row"
                     justifyContent="space-between"

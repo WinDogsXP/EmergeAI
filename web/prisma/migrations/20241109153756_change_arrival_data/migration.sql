@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE "Arrival" ADD COLUMN     "gender" TEXT NOT NULL DEFAULT '',
+ADD COLUMN     "name" TEXT NOT NULL DEFAULT '',
+ADD COLUMN     "urgency" INTEGER NOT NULL DEFAULT 5,
+ADD COLUMN     "verified" BOOLEAN NOT NULL DEFAULT false;
