@@ -13,6 +13,11 @@ import {
 
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
+import dynamic from "next/dynamic";
+
+
+const LeafletMap = dynamic(() => import("../components/LeafletMap/LeafletMap"), { ssr: false });
+
 export default function Home() {
     const links = [
         { href: "/dataentry/auto", text: "Automatic Data Entry" },
@@ -22,7 +27,7 @@ export default function Home() {
 
     return (
         <>
-            <AppBar position="static">
+            {/* <AppBar position="static">
                 <Toolbar>
                     <Typography
                         variant="h6"
@@ -38,32 +43,8 @@ export default function Home() {
                         <UserButton />
                     </SignedIn>
                 </Toolbar>
-            </AppBar>
-            <Container>
-                <Box my={4}>
-                    <Typography variant="h4" component="h1" gutterBottom>
-                        Welcome to EmergeAI
-                    </Typography>
-                    <Typography variant="body1">
-                        This is a sample page content. You can add more
-                        components and content here.
-                    </Typography>
-
-                    <Paper>
-                        <List>
-                            {links.map((link, index) => (
-                                <ListItemButton
-                                    key={index}
-                                    component={Link}
-                                    href={link.href}
-                                >
-                                    <ListItemText primary={link.text} />
-                                </ListItemButton>
-                            ))}
-                        </List>
-                    </Paper>
-                </Box>
-            </Container>
+            </AppBar> */}
+            <LeafletMap />
         </>
     );
 }
