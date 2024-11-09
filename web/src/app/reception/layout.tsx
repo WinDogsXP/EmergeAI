@@ -21,7 +21,7 @@ const ReceptionLayout: React.FC<ReceptionLayoutProps> = ({ children }) => {
                 </Toolbar>
             </AppBar>
             <Container>
-                <Box sx={{ my: 2 }}>{children}</Box>
+                <Box sx={{ my: 4 }}>{children}</Box>
             </Container>
         </Box>
     );
