@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Fab, Stack, IconButton } from "@mui/material";
+import { Fab, Stack, IconButton, Typography, Paper } from "@mui/material";
 import MicIcon from "@mui/icons-material/Mic";
 import Stop from "@mui/icons-material/Stop";
 
@@ -16,38 +16,47 @@ export default function ReceptionPageClient() {
     };
 
     return (
-        <Stack
-            direction="row"
-            justifyContent="space-between"
-            sx={{ p: "30px" }}
-        >
-            <IconButton>
-                <MicIcon />
-            </IconButton>
-            {!recording ? (
-                <Fab
-                    color="error"
-                    size="large"
-                    sx={{ transform: "scale(200%)" }}
-                    disableRipple
-                    onClick={handleRecording}
+        <Stack direction={{ sm: "column", md: "row" }} spacing={2}>
+            <Stack direction="column" sx={{ flex: 1 }}>
+                <Typography variant="h5" align="center">
+                    Automatic Data Entry
+                </Typography>
+
+                <Stack
+                    direction="row"
+                    justifyContent="space-between"
+                    sx={{ px: 2, py: 6 }}
                 >
-                    <MicIcon />
-                </Fab>
-            ) : (
-                <Fab
-                    color="primary"
-                    size="large"
-                    sx={{ transform: "scale(200%)" }}
-                    disableRipple
-                    onClick={handleStopRecording}
-                >
-                    <Stop />
-                </Fab>
-            )}
-            <IconButton>
-                <MicIcon />
-            </IconButton>
+                    <IconButton>
+                        <MicIcon />
+                    </IconButton>
+                    {!recording ? (
+                        <Fab
+                            color="error"
+                            size="large"
+                            sx={{ transform: "scale(175%)" }}
+                            disableRipple
+                            onClick={handleRecording}
+                        >
+                            <MicIcon />
+                        </Fab>
+                    ) : (
+                        <Fab
+                            color="primary"
+                            size="large"
+                            sx={{ transform: "scale(175%)" }}
+                            disableRipple
+                            onClick={handleStopRecording}
+                        >
+                            <Stop />
+                        </Fab>
+                    )}
+                    <IconButton>
+                        <MicIcon />
+                    </IconButton>
+                </Stack>
+            </Stack>
+            <Paper sx={{ flex: 2 }}></Paper>
         </Stack>
     );
 }

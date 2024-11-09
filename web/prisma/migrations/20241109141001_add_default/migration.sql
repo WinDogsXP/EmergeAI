@@ -1,0 +1,3 @@
+-- AlterTable
+ALTER TABLE "Arrival" ALTER COLUMN "status" SET DEFAULT 0,
+ALTER COLUMN "arrivedAt" DROP NOT NULL;
