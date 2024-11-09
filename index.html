@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech to Text fără Replici Repetate</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #e0f7fa;
+    }
+    .container {
+      text-align: center;
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      width: 320px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      color: #00796b;
+    }
+    #text-output {
+      width: 100%;
+      height: 120px;
+      padding: 12px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      resize: none;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    #text-output.active {
+      border-color: #00796b;
+      box-shadow: 0 0 10px rgba(0, 121, 107, 0.4);
+    }
+    button {
+      padding: 12px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #00796b;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+      margin: 10px 5px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    button:hover {
+      background-color: #004d40;
+    }
+    button:active {
+      transform: scale(0.96);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Speech to Text</h1>
+    <textarea id="text-output" placeholder="Textul recunoscut va apărea aici..." readonly></textarea>
+    <button onclick="startRecognition()">🎤 Începe Recunoașterea</button>
+    <button onclick="stopRecognition()">🛑 Oprește Recunoașterea</button>
+  </div>
+
+  <script>
+    let recognition;
+    let finalTranscript = '';
+
+    function startRecognition() {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      if (!SpeechRecognition) {
+        alert("Browserul dvs. nu suportă recunoașterea vocală.");
+        return;
+      }
+
+      recognition = new SpeechRecognition();
+      recognition.lang = 'ro-RO';
+      recognition.interimResults = true;
+      recognition.continuous = true;
+
+      const output = document.getElementById('text-output');
+      output.value = "";
+      output.classList.add('active');
+      output.placeholder = "Ascultând continuu...";
+
+      recognition.onresult = (event) => {
+        let interimTranscript = '';
+
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const transcript = event.results[i][0].transcript;
+          if (event.results[i].isFinal) {
+            finalTranscript += transcript + ' ';
+          } else {
+            interimTranscript += transcript;
+          }
+        }
+
+        output.value = finalTranscript + interimTranscript;
+      };
+
+      recognition.onerror = (event) => {
+        console.error("Eroare de recunoaștere vocală:", event.error);
+      };
+
+      recognition.onend = () => {
+        console.log("Recunoașterea vocală continuă s-a întrerupt.");
+        output.classList.remove('active');
+      };
+
+      recognition.start();
+    }
+
+    function stopRecognition() {
+      if (recognition) {
+        recognition.stop();
+        const output = document.getElementById('text-output');
+        output.classList.remove('active');
+        output.placeholder = "Recunoașterea a fost oprită.";
+        console.log("Recunoașterea vocală a fost oprită manual.");
+      }
+    }
+  </script>
+
+</body>
+</html>
