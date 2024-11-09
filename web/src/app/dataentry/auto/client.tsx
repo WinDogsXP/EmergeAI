@@ -4,6 +4,7 @@ import { Fab, Stack, IconButton, Typography, Paper, Box } from "@mui/material";
 import MicIcon from "@mui/icons-material/Mic";
 import Stop from "@mui/icons-material/Stop";
 import AutoForm from "./form";
+import { entryFormSchema } from "./schema";
 
 export default function ReceptionPageClient() {
     const [recording, setRecording] = React.useState(false);
@@ -59,7 +60,7 @@ export default function ReceptionPageClient() {
             </Stack>
             <Paper sx={{ flex: 2 }}>
                 <Box sx={{ p: 2 }}>
-                    <AutoForm />
+                    <AutoForm schema={entryFormSchema} />
                 </Box>
             </Paper>
         </Stack>
