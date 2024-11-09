@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
-import { Fab, Stack, IconButton, Typography, Paper } from "@mui/material";
+import { Fab, Stack, IconButton, Typography, Paper, Box } from "@mui/material";
 import MicIcon from "@mui/icons-material/Mic";
 import Stop from "@mui/icons-material/Stop";
+import AutoForm from "./form";
 
 export default function ReceptionPageClient() {
     const [recording, setRecording] = React.useState(false);
@@ -56,7 +57,11 @@ export default function ReceptionPageClient() {
                     </IconButton>
                 </Stack>
             </Stack>
-            <Paper sx={{ flex: 2 }}></Paper>
+            <Paper sx={{ flex: 2 }}>
+                <Box sx={{ p: 2 }}>
+                    <AutoForm />
+                </Box>
+            </Paper>
         </Stack>
     );
 }
