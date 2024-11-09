@@ -1,0 +1,17 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Arrival {
+  id        Int       @id @default(autoincrement())
+  age       String    @default("")
+  medic     String    @default("")
+  status    Int       @default(0)
+  arrivedAt DateTime?
+  createdAt DateTime  @default(now())
+}
