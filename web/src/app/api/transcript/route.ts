@@ -1,8 +1,9 @@
-// app/api/transcribe/route.ts
 import { NextRequest, NextResponse } from "next/server";
-import formidable from "formidable";
 import fs from "fs";
 import fetch from "node-fetch";
+import FormData from "form-data";
+import { File } from "formdata-node";
+import { readFile } from "fs/promises";
 
 export const config = {
     api: {
@@ -15,50 +16,42 @@ type TranscriptionResponse = {
 };
 
 export async function POST(req: NextRequest) {
-    const form = new formidable.IncomingForm();
+    try {
+        const formData = new FormData();
+        const file = req.body.get("file") as File;
 
-    return new Promise((resolve, reject) => {
-        form.parse(req, async (err, fields, files) => {
-            if (err) {
-                return reject(
-                    new NextResponse("Form parsing error", { status: 500 })
-                );
-            }
+        if (!file) {
+            return new NextResponse("File not provided", { status: 400 });
+        }
 
-            const filePath = (files.file as formidable.File).filepath;
-            const fileStream = fs.createReadStream(filePath);
-            const formData = new FormData();
-            formData.append("file", fileStream, "recording.webm");
-            formData.append("model", "whisper-1");
-
-            try {
-                const transcriptionResponse = await fetch(
-                    "https://api.openai.com/v1/audio/transcriptions",
-                    {
-                        method: "POST",
-                        headers: {
-                            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
-                        },
-                        body: formData,
-                    }
-                );
-
-                if (!transcriptionResponse.ok) {
-                    return resolve(
-                        new NextResponse(transcriptionResponse.statusText, {
-                            status: transcriptionResponse.status,
-                        })
-                    );
-                }
-
-                const transcriptionResult: TranscriptionResponse =
-                    await transcriptionResponse.json();
-                resolve(NextResponse.json(transcriptionResult));
-            } catch (error) {
-                resolve(
-                    new NextResponse("Transcription error", { status: 500 })
-                );
-            }
+        const fileBuffer = await readFile(file.path);
+        formData.append("file", fileBuffer, {
+            filename: "recording.webm",
+            contentType: "audio/webm",
         });
-    });
+        formData.append("model", "whisper-1");
+
+        const transcriptionResponse = await fetch(
+            "https://api.openai.com/v1/audio/transcriptions",
+            {
+                method: "POST",
+                headers: {
+                    Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+                },
+                body: formData as unknown as BodyInit,
+            }
+        );
+
+        if (!transcriptionResponse.ok) {
+            return new NextResponse(transcriptionResponse.statusText, {
+                status: transcriptionResponse.status,
+            });
+        }
+
+        const transcriptionResult: TranscriptionResponse =
+            await transcriptionResponse.json();
+        return NextResponse.json(transcriptionResult);
+    } catch (error) {
+        return new NextResponse("Transcription error", { status: 500 });
+    }
 }

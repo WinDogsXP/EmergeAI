@@ -59,7 +59,7 @@ export default function AudioRecorder() {
         formData.append("file", audioBlob, "recording.webm");
 
         try {
-            const transcriptionResponse = await fetch("/api/transcribe", {
+            const transcriptionResponse = await fetch("/api/transcript", {
                 method: "POST",
                 body: formData,
             });
