@@ -14,6 +14,12 @@ import {
 import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
+    const links = [
+        { href: "/dataentry/auto", text: "Automatic Data Entry" },
+        { href: "/livestatus", text: "Live Status" },
+        { href: "/reception", text: "Reception" },
+    ];
+
     return (
         <>
             <AppBar position="static">
@@ -45,15 +51,15 @@ export default function Home() {
 
                     <Paper>
                         <List>
-                            <ListItemButton component={Link} href="/dataentry">
-                                <ListItemText primary="Data Entry" />
-                            </ListItemButton>
-                            <ListItemButton component={Link} href="/livestatus">
-                                <ListItemText primary="Live Status" />
-                            </ListItemButton>
-                            <ListItemButton component={Link} href="/reception">
-                                <ListItemText primary="Reception" />
-                            </ListItemButton>
+                            {links.map((link, index) => (
+                                <ListItemButton
+                                    key={index}
+                                    component={Link}
+                                    href={link.href}
+                                >
+                                    <ListItemText primary={link.text} />
+                                </ListItemButton>
+                            ))}
                         </List>
                     </Paper>
                 </Box>
