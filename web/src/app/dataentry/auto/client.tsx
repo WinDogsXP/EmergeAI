@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Fab, Stack, IconButton, Typography, Paper, Box } from "@mui/material";
+import { Fab, Stack, Typography, Paper, Box } from "@mui/material";
 import MicIcon from "@mui/icons-material/Mic";
 import Stop from "@mui/icons-material/Stop";
 import AudioRecorder from "./AudioRecorder";
@@ -27,12 +27,9 @@ export default function ReceptionPageClient() {
                 <AudioRecorder></AudioRecorder>
                 <Stack
                     direction="row"
-                    justifyContent="space-between"
+                    justifyContent="space-around"
                     sx={{ px: 2, py: 6 }}
                 >
-                    <IconButton>
-                        <MicIcon />
-                    </IconButton>
                     {!recording ? (
                         <Fab
                             color="error"
@@ -54,9 +51,6 @@ export default function ReceptionPageClient() {
                             <Stop />
                         </Fab>
                     )}
-                    <IconButton>
-                        <MicIcon />
-                    </IconButton>
                 </Stack>
             </Stack>
             <Paper sx={{ flex: 2 }}>
