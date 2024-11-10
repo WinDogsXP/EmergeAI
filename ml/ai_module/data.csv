@@ -1,0 +1,1075 @@
+NivelUrgenta,SituatieClinica,SemneSimptome,InterventiiResurseNecesare,SemneVitale,Observatii
+1,Stop cardiorespirator,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP); defibrilare,TA: N/A; FC: N/A; FR: N/A,Necesită intervenție imediată
+1,Șoc anafilactic,Dispnee severă; edem facial; erupții cutanate,Administrare adrenalină; intubație,TA: 80/50 mmHg; FC: 130 bpm,Reacție alergică la antibiotic
+1,Hemoragie masivă,Sângerare abundentă; hipotensiune; tahicardie,Controlul sângerării; transfuzie sanguină,TA: 70/40 mmHg; FC: 120 bpm,Leziune traumatică
+1,Insuficiență respiratorie acută,Cianoză; respirații agonice,Ventilație mecanică; intubație,SpO2: 85%; FR: 35/min,Exacerbare BPOC
+1,Traumă craniană severă,Inconștiență; pupile inegale,Monitorizare neurologică; CT cerebral urgent,TA: 150/90 mmHg; FC: 60 bpm,Cădere de la înălțime
+1,Criză convulsivă prelungită,Convulsii generalizate; pierderea conștienței,Administrare anticonvulsivante i.v.; susținere căi aeriene,TA: 140/85 mmHg; FC: 110 bpm,Istoric de epilepsie
+1,Edem pulmonar acut,Dispnee severă; raluri umede; ortopnee,Diuretice i.v.; nitroglicerină; CPAP,TA: 180/100 mmHg; FC: 110 bpm,Insuficiență cardiacă cunoscută
+1,Infarct miocardic acut cu STEMI,Durere toracică intensă; iradiere în brațul stâng,Monitorizare ECG; tromboliză; angioplastie,TA: 100/60 mmHg; FC: 95 bpm,EKG cu supradenivelare ST
+1,Pneumotorax sufocant,Dispnee severă; absența murmurului vezicular,Decompresie cu ac; drenaj toracic,TA: 90/60 mmHg; FC: 120 bpm,Traumatism toracic
+1,Tamponadă cardiacă,Hipotensiune; jugulare turgescente,Pericardiocenteză,TA: 80/50 mmHg; FC: 110 bpm,Acumulare de lichid pericardic
+2,Durere abdominală la vârstnic,Durere severă; semne vitale stabile,Investigații imagistice; analize de laborator,TA: 130/80 mmHg; FC: 90 bpm,Vârstă înaintată
+2,Torsiune testiculară,Durere testiculară brusc instalată,Intervenție chirurgicală urgentă,Semne vitale stabile,
+2,Accident vascular cerebral,Deficite motorii sau de vorbire acute,CT cerebral; evaluare neurologică,TA: 140/85 mmHg; FC: 85 bpm,
+2,Sarcină ectopică,Rău abdominal; sângerare vaginală,Ecografie transvaginală; intervenție chirurgicală,TA: 110/70 mmHg; FC: 100 bpm,Test de sarcină pozitiv
+2,Criză de astm sever,Dispnee; wheezing; tiraj intercostal,Bronhodilatatoare nebulizate; oxigenoterapie,SpO2: 88%; FR: 30/min,
+2,Convulsii recente,Pacient conștient post-ictal; confuzie,Monitorizare; analize de laborator,TA: 135/80 mmHg; FC: 90 bpm,
+2,Pneumotorax spontan,Dispnee severă instalată brusc,Radiografie toracică; drenaj pleural,TA: 120/80 mmHg; FC: 100 bpm,
+2,Hipoglicemie severă,Confuzie; transpirații; tremor,Administrare glucoză i.v.,Glicemie: 40 mg/dL,Diabetic insulinodependent
+2,Sângerare gastrointestinală,Hematemeză; melenă,Stabilizare hemodinamică; endoscopie,TA: 90/60 mmHg; FC: 110 bpm,
+2,Fractură de femur deschisă,Dureri intense; deformare evidentă,Imobilizare; intervenție chirurgicală,TA: 120/80 mmHg; FC: 95 bpm,Accident rutier
+3,Fractură de gleznă,Durere moderată; edem; incapacitate de a merge,Radiografie; sutura plăgii,TA: 120/80 mmHg; FC: 90 bpm,
+3,Pneumonie comunitară,Tuse; febră; dispnee ușoară,Radiografie toracică; teste de laborator,T: 38.5°C; FR: 22/min,
+3,Colică renală,Durere lombară intensă; hematurie,Analize urină; analgezice i.v.,TA: 130/85 mmHg; FC: 88 bpm,
+3,Exacerbare astm,Wheezing; dificultăți respiratorii,Bronhodilatatoare; spirometrie,SpO2: 94%; FR: 25/min,
+3,Abces cutanat,Zona inflamată; durere,Incizie și drenaj; antibiotic i.m.,TA: 125/80 mmHg; T: 37.8°C,
+3,Greață și vărsături,Deshidratare ușoară; incapacitate de a reține lichide,Fluide i.v.; antiemetice i.v.,TA: 115/75 mmHg; FC: 95 bpm,
+3,Suspiciune de apendicită,Durere abdominală dreapta jos; greață,Teste de laborator; ecografie abdominală,TA: 120/80 mmHg; T: 37.9°C,
+3,Ochi roșu acut,Durere oculară; fotofobie,Consult oftalmologic; picături antibiotice,TA: 120/80 mmHg; FC: 80 bpm,
+3,Otrăvire accidentală,Ingerare substanță necunoscută,Monitorizare; analize toxice,TA: 110/70 mmHg; FC: 90 bpm,Copil de 3 ani
+3,Migrenă severă,Cefalee intensă; greață; sensibilitate la lumină,Administrare analgezice i.v.; întuneric,TA: 130/80 mmHg; FC: 85 bpm,Istoric de migrene
+4,Plagă superficială,Tăietură mică; sângerare minoră,Sutura plăgii,TA: 115/75 mmHg; FC: 80 bpm,
+4,Infecție urinară necomplicată,Urinări frecvente; disurie,Analize urină,T: 37.5°C; TA: 110/70 mmHg,
+4,Contuzie minoră,Vânătaie la braț; durere ușoară,Analgezic i.m.,Semne vitale stabile,
+4,Dermatită alergică,Erupție cutanată; prurit,Antihistaminic i.m.,Semne vitale stabile,
+4,Conjunctivită,Roșeață oculară; secreții conjunctivale,Nicio resursă,Semne vitale stabile,
+4,Otită externă,Durere ușoară la nivelul urechii,Nicio resursă,Semne vitale stabile,
+4,Gastrită ușoară,Disconfort abdominal; arsuri,Antiacid i.v.,TA: 120/80 mmHg; FC: 78 bpm,
+4,Entorsă de gleznă minoră,Edem ușor; durere la mișcare,Radiografie,Semne vitale stabile,
+4,Cefalee tensională,Durere de cap moderată,Nicio resursă,TA: 125/80 mmHg; FC: 82 bpm,
+4,Durere de dinți,Durere localizată; sensibilitate,Nicio resursă,Semne vitale stabile,
+5,Solicitare vaccinare antigripală,Niciun simptom,Nicio resursă,N/A,Persoană sănătoasă
+5,Cerere eliberare certificat medical,Niciun simptom,Nicio resursă,N/A,Necesită pentru angajare
+5,Caz social fără acuze clinice,Niciun simptom,Nicio resursă,N/A,Îndrumare către servicii sociale
+5,Solicitare rețetă pentru medicamente cronice,Niciun simptom,Nicio resursă,N/A,Pacient cu boli cronice
+5,Consult pentru adeverință medicală sport,Niciun simptom,Nicio resursă,N/A,Elev care dorește să practice sport
+5,Întrebare despre rezultate analize,Niciun simptom,Nicio resursă,N/A,Discuție cu medicul
+5,Scoatere fire după intervenție,Niciun simptom,Nicio resursă,N/A,Intervenție acum 10 zile
+5,Vaccinare pentru călătorie,Niciun simptom,Nicio resursă,N/A,Necesită vaccinuri specifice
+5,Consiliere renunțare la fumat,Niciun simptom,Nicio resursă,N/A,Dorește program de consiliere
+5,Solicitare informații planificare familială,Niciun simptom,Nicio resursă,N/A,Necesită îndrumare
+1,Criză hipertensivă severă,Durere de cap intensă; vedere încețoșată,Administrare nitroglicerină i.v.; monitorizare,TA: 220/130 mmHg; FC: 110 bpm,Pacient cu istoric de hipertensiune
+1,Septicemie,Hipotensiune; febră; confuzie,Antibiotice i.v.; fluide i.v.,TA: 85/55 mmHg; T: 39.5°C,Posibilă infecție urinare extinsă
+1,Insuficiență renală acută,Edem generalizat; scăderea diurezei,Administrare fluide; dializă de urgență,TA: 145/90 mmHg; FC: 100 bpm,Pacient cu istoric de insuficiență renală
+1,Comă diabetică,Confuzie; respirație cu miros de acetonă,Administrare insulină i.v.; fluide i.v.,Glicemie: 500 mg/dL,Diabet tip 1 cunoscut
+2,Durere toracică nespecifică,Durere toracică moderată; semne vitale stabile,Monitorizare ECG; analize de sânge,TA: 130/85 mmHg; FC: 88 bpm,Fără antecedente cardiovasculare
+2,Suspiciune de colică biliară,Durere intensă în partea dreaptă superioară,Ecografie abdominală; analgezice i.v.,TA: 125/80 mmHg; T: 37.2°C,Pacient fără antecedente medicale relevante
+2,Criză de vertij sever,Vertij; greață,Administrare antiemetice; hidratare orală,TA: 110/70 mmHg; FC: 80 bpm,Pacient cu istoric de migrene
+3,Bronșită acută,Tuse persistentă; febră scăzută,Radiografie toracică; antibiotice i.m.,TA: 115/75 mmHg; T: 37.8°C,Fumător
+3,Rinită alergică,Strănuturi frecvente; congestie nazală,Antihistaminic oral,Semne vitale stabile,Fără alte simptome
+4,Durere de umăr,Durere ușoară în zona umărului; mobilitate redusă,Administrare analgezic oral,Semne vitale stabile,Suspectare inflamație musculară
+1,Infarct miocardic acut,Durere toracică intensă; transpirații reci,Administrare oxigen; monitorizare ECG; tromboliză,TA: 90/60 mmHg; FC: 120 bpm,Istoric de hipertensiune
+1,Hemorragie internă,Confuzie; paloare; puls slab,Administrare fluide i.v.; transfuzie sanguină,TA: 70/40 mmHg; FC: 130 bpm,Suspect ruptură de organ
+1,Accident vascular hemoragic,Confuzie bruscă; slăbiciune pe o parte,CT cerebral de urgență,TA: 180/110 mmHg; FC: 95 bpm,Posibilă ruptură de anevrism
+1,Status epilepticus,Convulsii prelungite; inconștiență,Administrare anticonvulsivante i.v.,TA: 140/85 mmHg; FC: 110 bpm,Pacient epileptic
+1,Criză anafilactică severă,Edem facial; dispnee; mâncărime,Administrare adrenalină i.v.; oxigen,TA: 80/50 mmHg; FC: 130 bpm,Reacție la antibiotice
+1,Insuficiență hepatică acută,Icter; confuzie; hemoragii spontane,Plasmă i.v.; vitamina K,TA: 110/70 mmHg; FC: 100 bpm,Pacient cu ciroză
+1,Edem laringian acut,Respirație zgomotoasă; agitație,Administrare de cortizon i.v.,TA: 100/60 mmHg; FC: 110 bpm,Suspectă reacție alergică
+1,Traumă multiplă,Plăgi deschise; fracturi multiple,Resuscitare volemică; radiografii multiple,TA: 90/60 mmHg; FC: 130 bpm,Accident auto
+1,Criză hipertensivă,Durere de cap intensă; vedere încețoșată,Administrare nitroglicerină i.v.; monitorizare,TA: 220/130 mmHg; FC: 100 bpm,Istoric de hipertensiune
+1,Insuficiență respiratorie cronică,Dispnee severă; cianoză,Ventilație CPAP,SpO2: 85%; FR: 30/min,Pacient cu BPOC
+2,Insuficiență cardiacă acută,Oboseală; edem la picioare,Administrare diuretice; ecocardiografie,TA: 140/90 mmHg; FC: 90 bpm,Istoric de insuficiență cardiacă
+2,Suspiciune de pancreatită,Durere abdominală intensă; greață,Ecografie abdominală; analize de laborator,TA: 120/80 mmHg; T: 38°C,Pacient cu consum ridicat de alcool
+2,Pneumonie cu insuficiență respiratorie,Febră; dificultăți de respirație,Radiografie toracică; antibiotice i.v.,SpO2: 88%; FR: 28/min,Pacient în vârstă
+2,Fractură deschisă de tibie,Durere severă; deformare la picior,Imobilizare; intervenție chirurgicală,TA: 130/85 mmHg; FC: 90 bpm,Accident sportiv
+2,Colică renală,Durere intensă la rinichi; hematurie,Analgezice i.v.; analize urină,TA: 125/80 mmHg; FC: 100 bpm,Pacient cu istoric de litiază renală
+2,Cetoacidoză diabetică,Respirație rapidă; glicemie ridicată,Administrare insulină i.v.; fluide i.v.,Glicemie: 480 mg/dL; TA: 100/70 mmHg,Diabetic tip 1
+2,Infecție urinară severă,Frecvență urinară crescută; febră,Antibiotice i.v.; analize urină,TA: 110/70 mmHg; T: 39°C,Pacient cu imunitate scăzută
+2,Caz de intoxicare prin inhalare,Durere de cap; confuzie,Administrare oxigen; monitorizare,SpO2: 92%; TA: 120/75 mmHg,Intoxicație prin fum de incendiu
+2,Suspiciune de ruptură de apendice,Durere abdominală severă; febră,Ecografie abdominală; intervenție chirurgicală,TA: 130/80 mmHg; T: 39°C,Simptome recente
+2,Tulburări de ritm cardiac,Palpitații; amețeli,Monitorizare ECG; medicamente i.v.,TA: 115/70 mmHg; FC: 150 bpm,Pacient cu fibrilație atrială
+3,Bronșită acută,Tuse persistentă; febră,Radiografie toracică; antibiotice,TA: 120/80 mmHg; T: 38°C,Fumător
+3,Infecție dentară severă,Durere intensă la maxilar; febră,Analgezice; antibiotice,TA: 110/70 mmHg; T: 38°C,Fără istoric relevant
+3,Ochi roșu acut,Durere oculară; lăcrimare,Consult oftalmologic; picături oftalmice,TA: 115/75 mmHg,Pacient cu istoric de conjunctivită
+3,Erupție cutanată alergică,Mâncărime intensă; erupție,Antihistaminice orale,Semne vitale stabile,Alergie la mâncare
+3,Reacție alergică moderată,Mâncărime; edem palpebral,Antihistaminice i.v.,TA: 120/80 mmHg; FC: 90 bpm,Posibilă alergie la medicamente
+3,Durere lombară acută,Durere intensă la spate,Analgezice i.v.,Semne vitale stabile,Suspectează hernie de disc
+3,Otoragie după traumatism cranian,Sângerare din ureche; durere de cap,Monitorizare; radiografie craniană,TA: 130/85 mmHg,Traumatism recent
+3,Greață și vărsături,Dezhidratare; vărsături incoercibile,Fluide i.v.; antiemetice,TA: 110/70 mmHg,Simptome persistente
+3,Sciatică acută,Durere iradiată pe picior; amorțeală,Analgezice; consult ortopedic,Semne vitale stabile,Pacient cu hernie cunoscută
+3,Infecție la nivelul urechii,Durere; scurgeri purulente,Antibiotice i.m.,TA: 115/75 mmHg,Posibilă otită externă
+4,Dermatită,Prurit; erupție cutanată localizată,Cremă antiinflamatoare,Semne vitale stabile,Contact recent cu substanță iritantă
+4,Gastrită,Durere epigastrică; arsuri,Antiacid oral,Semne vitale stabile,Simptome de scurtă durată
+4,Sinuzită acută,Durere facială; congestie nazală,Decongestionante nazale,Semne vitale stabile,Fără istoric de sinuzită
+4,Entorsă de mână,Durere ușoară la mișcare; edem,Imobilizare temporară,Semne vitale stabile,Accident sportiv minor
+4,Erupție herpetică,Vezicule dureroase pe buze,Antivirale locale,Semne vitale stabile,Recidivă cunoscută
+4,Durere de gât,Dificultate la înghițire; senzație de arsură,Analgezic oral,Semne vitale stabile,Simptome recente
+4,Migrenă moderată,Cefalee cu greață,Analgezic oral,Semne vitale stabile,Istoric de migrene
+4,Rozacee,Erupție facială roșie,Tratament topic,Semne vitale stabile,Simptome persistente
+4,Infecție minoră a pielii,Erupție ușor dureroasă,Antibiotic local,Semne vitale stabile,Contact cu o suprafață contaminată
+4,Oboseală cronică,Slăbiciune generală
+NivelUrgenta,SituatieClinica,SemneSimptome,InterventiiResurseNecesare,SemneVitale,Observatii
+1,Infarct miocardic acut,Durere toracică intensă; transpirații reci,Administrare oxigen; monitorizare ECG; tromboliză,TA: 90/60 mmHg; FC: 120 bpm,Istoric de hipertensiune
+1,Hemorragie internă,Confuzie; paloare; puls slab,Administrare fluide i.v.; transfuzie sanguină,TA: 70/40 mmHg; FC: 130 bpm,Suspect ruptură de organ
+1,Accident vascular hemoragic,Confuzie bruscă; slăbiciune pe o parte,CT cerebral de urgență,TA: 180/110 mmHg; FC: 95 bpm,Posibilă ruptură de anevrism
+1,Status epilepticus,Convulsii prelungite; inconștiență,Administrare anticonvulsivante i.v.,TA: 140/85 mmHg; FC: 110 bpm,Pacient epileptic
+1,Criză anafilactică severă,Edem facial; dispnee; mâncărime,Administrare adrenalină i.v.; oxigen,TA: 80/50 mmHg; FC: 130 bpm,Reacție la antibiotice
+1,Insuficiență hepatică acută,Icter; confuzie; hemoragii spontane,Plasmă i.v.; vitamina K,TA: 110/70 mmHg; FC: 100 bpm,Pacient cu ciroză
+1,Edem laringian acut,Respirație zgomotoasă; agitație,Administrare de cortizon i.v.,TA: 100/60 mmHg; FC: 110 bpm,Suspectă reacție alergică
+1,Traumă multiplă,Plăgi deschise; fracturi multiple,Resuscitare volemică; radiografii multiple,TA: 90/60 mmHg; FC: 130 bpm,Accident auto
+1,Criză hipertensivă,Durere de cap intensă; vedere încețoșată,Administrare nitroglicerină i.v.; monitorizare,TA: 220/130 mmHg; FC: 100 bpm,Istoric de hipertensiune
+1,Insuficiență respiratorie cronică,Dispnee severă; cianoză,Ventilație CPAP,SpO2: 85%; FR: 30/min,Pacient cu BPOC
+2,Insuficiență cardiacă acută,Oboseală; edem la picioare,Administrare diuretice; ecocardiografie,TA: 140/90 mmHg; FC: 90 bpm,Istoric de insuficiență cardiacă
+2,Suspiciune de pancreatită,Durere abdominală intensă; greață,Ecografie abdominală; analize de laborator,TA: 120/80 mmHg; T: 38°C,Pacient cu consum ridicat de alcool
+2,Pneumonie cu insuficiență respiratorie,Febră; dificultăți de respirație,Radiografie toracică; antibiotice i.v.,SpO2: 88%; FR: 28/min,Pacient în vârstă
+2,Fractură deschisă de tibie,Durere severă; deformare la picior,Imobilizare; intervenție chirurgicală,TA: 130/85 mmHg; FC: 90 bpm,Accident sportiv
+2,Colică renală,Durere intensă la rinichi; hematurie,Analgezice i.v.; analize urină,TA: 125/80 mmHg; FC: 100 bpm,Pacient cu istoric de litiază renală
+2,Cetoacidoză diabetică,Respirație rapidă; glicemie ridicată,Administrare insulină i.v.; fluide i.v.,Glicemie: 480 mg/dL; TA: 100/70 mmHg,Diabetic tip 1
+2,Infecție urinară severă,Frecvență urinară crescută; febră,Antibiotice i.v.; analize urină,TA: 110/70 mmHg; T: 39°C,Pacient cu imunitate scăzută
+2,Caz de intoxicare prin inhalare,Durere de cap; confuzie,Administrare oxigen; monitorizare,SpO2: 92%; TA: 120/75 mmHg,Intoxicație prin fum de incendiu
+2,Suspiciune de ruptură de apendice,Durere abdominală severă; febră,Ecografie abdominală; intervenție chirurgicală,TA: 130/80 mmHg; T: 39°C,Simptome recente
+2,Tulburări de ritm cardiac,Palpitații; amețeli,Monitorizare ECG; medicamente i.v.,TA: 115/70 mmHg; FC: 150 bpm,Pacient cu fibrilație atrială
+3,Bronșită acută,Tuse persistentă; febră,Radiografie toracică; antibiotice,TA: 120/80 mmHg; T: 38°C,Fumător
+3,Infecție dentară severă,Durere intensă la maxilar; febră,Analgezice; antibiotice,TA: 110/70 mmHg; T: 38°C,Fără istoric relevant
+3,Ochi roșu acut,Durere oculară; lăcrimare,Consult oftalmologic; picături oftalmice,TA: 115/75 mmHg,Pacient cu istoric de conjunctivită
+3,Erupție cutanată alergică,Mâncărime intensă; erupție,Antihistaminice orale,Semne vitale stabile,Alergie la mâncare
+3,Reacție alergică moderată,Mâncărime; edem palpebral,Antihistaminice i.v.,TA: 120/80 mmHg; FC: 90 bpm,Posibilă alergie la medicamente
+3,Durere lombară acută,Durere intensă la spate,Analgezice i.v.,Semne vitale stabile,Suspectează hernie de disc
+3,Otoragie după traumatism cranian,Sângerare din ureche; durere de cap,Monitorizare; radiografie craniană,TA: 130/85 mmHg,Traumatism recent
+3,Greață și vărsături,Dezhidratare; vărsături incoercibile,Fluide i.v.; antiemetice,TA: 110/70 mmHg,Simptome persistente
+3,Sciatică acută,Durere iradiată pe picior; amorțeală,Analgezice; consult ortopedic,Semne vitale stabile,Pacient cu hernie cunoscută
+3,Infecție la nivelul urechii,Durere; scurgeri purulente,Antibiotice i.m.,TA: 115/75 mmHg,Posibilă otită externă
+4,Dermatită,Prurit; erupție cutanată localizată,Cremă antiinflamatoare,Semne vitale stabile,Contact recent cu substanță iritantă
+4,Gastrită,Durere epigastrică; arsuri,Antiacid oral,Semne vitale stabile,Simptome de scurtă durată
+4,Sinuzită acută,Durere facială; congestie nazală,Decongestionante nazale,Semne vitale stabile,Fără istoric de sinuzită
+4,Entorsă de mână,Durere ușoară la mișcare; edem,Imobilizare temporară,Semne vitale stabile,Accident sportiv minor
+4,Erupție herpetică,Vezicule dureroase pe buze,Antivirale locale,Semne vitale stabile,Recidivă cunoscută
+4,Durere de gât,Dificultate la înghițire; senzație de arsură,Analgezic oral,Semne vitale stabile,Simptome recente
+4,Migrenă moderată,Cefalee cu greață,Analgezic oral,Semne vitale stabile,Istoric de migrene
+4,Rozacee,Erupție facială roșie,Tratament topic,Semne vitale stabile,Simptome persistente
+4,Infecție minoră a pielii,Erupție ușor dureroasă,Antibiotic local,Semne vitale stabile,Contact cu o suprafață contaminată
+4,Oboseală cronică,Slăbiciune generală,Nicio resursă,Semne vitale stabile,Simptome persistente
+5,Consultație pentru control periodic,Niciun simptom,Nicio resursă,Semne vitale stabile,Consultație de rutină
+5,Solictare eliberare aviz sportiv,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate pentru activitate sportivă
+5,Certificat medical pentru școală,Niciun simptom,Nicio resursă,Semne vitale stabile,Elev sănătos
+5,Solicitare consiliere dietetică,Niciun simptom,Nicio resursă,Semne vitale stabile,Consultație de rutină
+5,Consiliere pentru renunțare la alcool,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința pacientului de renunțare
+5,Informații despre vaccinuri,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de călătorie
+5,Solicitare rețetă pentru diabet,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient cu diabet tip 2
+5,Consiliere pentru igiena dentară,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de prevenire a cariilor
+5,Consultație pentru simptome nespecifice,Niciun simptom,Nicio resursă,Semne vitale stabile,Solicitare generală
+5,Vaccinare sezonieră,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenirea bolilor de sezon
+1,Insuficiență respiratorie severă,Cianoză; respirație superficială,Ventilație mecanică,SpO2: 82%; FR: 30/min,Necesită intubație imediată
+1,Stop respirator,Apnee; lipsa pulsului,Resuscitare cardiopulmonară,TA: N/A; FC: N/A,Pacient în stare critică
+1,Criză severă de astm,Wheezing intens; detresă respiratorie,Bronhodilatatoare nebulizate,SpO2: 85%; FR: 35/min,Istoric de astm bronșic
+1,Șoc hipovolemic,Paloare; puls slab; transpirație,Administrare fluide i.v.,TA: 70/40 mmHg; FC: 125 bpm,Hemoragie internă suspectată
+1,Insuficiență cardiacă severă,Edem pulmonar; oboseală extremă,Diuretice i.v.; oxigenoterapie,TA: 100/60 mmHg; SpO2: 88%,Pacient cu insuficiență cardiacă congestivă
+1,Traumatism toracic sever,Dificultate respiratorie; durere intensă,Drenaj toracic,TA: 90/60 mmHg; FC: 115 bpm,Accident rutier
+1,Insuficiență renală acută,Edem generalizat; confuzie,Administrare fluide; monitorizare,TA: 130/85 mmHg; FC: 105 bpm,Pacient cu istoric de boli renale
+1,Sepsis,Febră ridicată; hipotensiune,Antibiotice i.v.; fluide i.v.,TA: 85/55 mmHg; T: 39°C,Infecție sistemică
+1,Intoxicație cu monoxid de carbon,Confuzie; greață,Administrare oxigen,SpO2: 90%; TA: 120/80 mmHg,Inhalare accidentală de monoxid
+1,Criză epileptică prelungită,Convulsii continue,Administrare anticonvulsivante i.v.,TA: 140/90 mmHg; FC: 115 bpm,Istoric de epilepsie
+1,Tamponadă cardiacă severă,Jugulare turgescente; dispnee,Pericardiocenteză,TA: 80/50 mmHg; FC: 110 bpm,Acumulare de lichid pericardic
+1,Hemotorax sever,Sângerare; durere toracică,Drenaj toracic,TA: 90/60 mmHg; FC: 120 bpm,Traumă recentă la nivelul pieptului
+1,Șoc septic,Febră; confuzie; hipotensiune severă,Antibiotice i.v.; fluide,TA: 75/45 mmHg; T: 39.5°C,Infecție bacteriană avansată
+1,Ruptură de anevrism abdominal,Dureri abdominale intense,CT de urgență; intervenție chirurgicală,TA: 70/40 mmHg; FC: 130 bpm,Risc de hemoragie masivă
+1,Infarct miocardic acut (STEMI),Durere toracică intensă; transpirații reci,Monitorizare ECG; tromboliză,TA: 90/60 mmHg; FC: 100 bpm,Istoric de hipertensiune
+2,Durere toracică nespecifică,Durere în piept intermitentă,ECG; monitorizare,TA: 130/85 mmHg,Fără antecedente cardiovasculare
+2,Suspiciune de meningită,Cefalee intensă; febră,Analize de sânge; puncție lombară,TA: 120/80 mmHg; T: 39°C,Posibilă infecție cerebrală
+2,Criză de vertij cu greață,Vertij intens; greață,Antiemetice; hidratare i.v.,TA: 115/70 mmHg,Pacient cu istoric de migrene
+2,Hemoroizi cu sângerare,Durere la defecație; sângerare minoră,Analgezice; examen rectal,TA: 120/80 mmHg,Cronicizat
+2,Sciatică acută,Durere intensă în partea inferioară a spatelui,Analgezice i.v.,TA: 125/80 mmHg,Istoric de hernie de disc
+2,Intoxicație alimentară severă,Greață; vărsături; dezhidratare,Fluide i.v.; monitorizare,TA: 110/70 mmHg,Simptome severe
+2,Tahicardie supraventriculară,Palpitații; amețeli,ECG; administrare de medicamente,TA: 130/80 mmHg; FC: 160 bpm,Fără istoric cunoscut
+2,Colică biliară,Durere intensă sub coaste; greață,Ecografie abdominală; analgezice i.v.,TA: 120/80 mmHg,Durere intermitentă
+2,Cetoacidoză diabetică,Respirație Kussmaul; glicemie crescută,Administrare insulină i.v.; fluide,TA: 105/70 mmHg; glicemie: 450 mg/dL,Diabet tip 1 cunoscut
+2,Fractură de femur,Durere severă; deformare la picior,Imobilizare; intervenție chirurgicală,TA: 130/85 mmHg; FC: 95 bpm,Accident rutier
+3,Bronșită cronică,Tuse persistentă; dispnee ușoară,Radiografie toracică; bronhodilatatoare,TA: 125/80 mmHg; SpO2: 92%,Fumător
+3,Sinuzită acută,Durere facială; congestie nazală,Antibiotice orale,TA: 120/80 mmHg,Simptome sezoniere
+3,Erupție cutanată alergică,Mâncărime intensă; erupție,Antihistaminice orale,TA: 120/80 mmHg,Posibilă reacție alergică
+3,Entorsă de gleznă,Durere; edem la gleznă,Radiografie; imobilizare temporară,TA: 120/80 mmHg,Accident sportiv
+3,Otită medie acută,Durere de ureche; febră ușoară,Antibiotice,TA: 115/75 mmHg,Fără antecedente
+3,Luxație de umăr,Durere intensă; mobilitate limitată,Imobilizare; analgezice,TA: 120/80 mmHg,Sportiv
+3,Infecție a pielii cu durere moderată,Rozacee; erupție dureroasă,Antibiotice locale,Semne vitale stabile,Erupție recurentă
+3,Gastroenterită,Greață; crampe abdominale; diaree,Fluide i.v.,TA: 110/70 mmHg,Posibilă intoxicație alimentară
+3,Hematurie fără durere,Sânge în urină; fără alte simptome,Analize de urină,Semne vitale stabile,Fără antecedente
+3,Cefalee moderată,Cefalee persistentă; sensibilitate la lumină,Analgezice orale,TA: 125/85 mmHg,Istoric de migrene
+4,Durere de genunchi ușoară,Durere localizată; mobilitate ușor redusă,Analgezice orale,Semne vitale stabile,Posibilă tendinită
+4,Rinită alergică,Strănuturi frecvente; congestie nazală,Antihistaminice,Semne vitale stabile,Alergie sezonieră
+4,Dermatită ușoară,Erupție localizată; mâncărime,Tratament topic,Semne vitale stabile,Fără complicații
+4,Veruci plantare,Mâncărime; durere la mers,Tratament topic,Semne vitale stabile,Simptome cronice
+4,Hemoragie nazală minoră,Sângerare nazală; fără alte simptome,Pansament simplu,Semne vitale stabile,Suspectează uscare
+4,Bătătură dureroasă pe picior,Dureri la mers; sensibilitate,Pansament; analgezice orale,Semne vitale stabile,Pacient în vârstă
+4,Suspiciune de luxație de deget,Dureri și mobilitate redusă la deget,Imobilizare temporară,Semne vitale stabile,Accident casnic
+4,Durere de gât moderată,Gât inflamat; senzație de uscăciune,Analgezice,Semne vitale stabile,Fără alte simptome
+4,Durere de spate ușoară,Durere la mișcare; fără alte simptome,Analgezice orale,Semne vitale stabile,Fără complicații
+4,Cistită ușoară,Frecvență urinară crescută; disconfort abdominal,Antibiotice orale,Semne vitale stabile,Simptome recurente
+5,Solicitare pentru aviz sportiv,Niciun simptom,Nicio resursă,Semne vitale stabile,Evaluare pentru activitate sportivă
+5,Vaccinare antigripală,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenție sezonieră
+5,Certificat medical pentru concediu,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient fără acuze
+5,Consultație pentru igiena orală,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința pacientului de prevenție
+5,Eliberare rețetă medicamente cronice,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient cronic
+5,Consiliere dietetică,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința de îmbunătățire a sănătății
+5,Consultație pentru managementul greutății,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de scădere în greutate
+5,Control pentru tensiune arterială,Niciun simptom,Nicio resursă,TA: 130/80 mmHg,Evaluare periodică
+5,Solicitare certificat medical pentru angajare,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate administrativă
+5,Informare despre planificare familială,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de consiliere
+1,Infarct miocardic acut,Durere toracică intensă; transpirații reci,Administrare oxigen; monitorizare ECG; tromboliză,TA: 90/60 mmHg; FC: 120 bpm,Istoric de hipertensiune
+1,Hemorragie internă,Confuzie; paloare; puls slab,Administrare fluide i.v.; transfuzie sanguină,TA: 70/40 mmHg; FC: 130 bpm,Suspect ruptură de organ
+1,Accident vascular hemoragic,Confuzie bruscă; slăbiciune pe o parte,CT cerebral de urgență,TA: 180/110 mmHg; FC: 95 bpm,Posibilă ruptură de anevrism
+1,Status epilepticus,Convulsii prelungite; inconștiență,Administrare anticonvulsivante i.v.,TA: 140/85 mmHg; FC: 110 bpm,Pacient epileptic
+1,Criză anafilactică severă,Edem facial; dispnee; mâncărime,Administrare adrenalină i.v.; oxigen,TA: 80/50 mmHg; FC: 130 bpm,Reacție la antibiotice
+1,Insuficiență hepatică acută,Icter; confuzie; hemoragii spontane,Plasmă i.v.; vitamina K,TA: 110/70 mmHg; FC: 100 bpm,Pacient cu ciroză
+1,Edem laringian acut,Respirație zgomotoasă; agitație,Administrare de cortizon i.v.,TA: 100/60 mmHg; FC: 110 bpm,Suspectă reacție alergică
+1,Traumă multiplă,Plăgi deschise; fracturi multiple,Resuscitare volemică; radiografii multiple,TA: 90/60 mmHg; FC: 130 bpm,Accident auto
+1,Criză hipertensivă,Durere de cap intensă; vedere încețoșată,Administrare nitroglicerină i.v.; monitorizare,TA: 220/130 mmHg; FC: 100 bpm,Istoric de hipertensiune
+1,Insuficiență respiratorie cronică,Dispnee severă; cianoză,Ventilație CPAP,SpO2: 85%; FR: 30/min,Pacient cu BPOC
+2,Insuficiență cardiacă acută,Oboseală; edem la picioare,Administrare diuretice; ecocardiografie,TA: 140/90 mmHg; FC: 90 bpm,Istoric de insuficiență cardiacă
+2,Suspiciune de pancreatită,Durere abdominală intensă; greață,Ecografie abdominală; analize de laborator,TA: 120/80 mmHg; T: 38°C,Pacient cu consum ridicat de alcool
+2,Pneumonie cu insuficiență respiratorie,Febră; dificultăți de respirație,Radiografie toracică; antibiotice i.v.,SpO2: 88%; FR: 28/min,Pacient în vârstă
+2,Fractură deschisă de tibie,Durere severă; deformare la picior,Imobilizare; intervenție chirurgicală,TA: 130/85 mmHg; FC: 90 bpm,Accident sportiv
+2,Colică renală,Durere intensă la rinichi; hematurie,Analgezice i.v.; analize urină,TA: 125/80 mmHg; FC: 100 bpm,Pacient cu istoric de litiază renală
+2,Cetoacidoză diabetică,Respirație Kussmaul; glicemie ridicată,Administrare insulină i.v.; fluide i.v.,Glicemie: 480 mg/dL; TA: 100/70 mmHg,Diabetic tip 1
+2,Infecție urinară severă,Frecvență urinară crescută; febră,Antibiotice i.v.; analize urină,TA: 110/70 mmHg; T: 39°C,Pacient cu imunitate scăzută
+2,Caz de intoxicare prin inhalare,Durere de cap; confuzie,Administrare oxigen; monitorizare,SpO2: 92%; TA: 120/75 mmHg,Intoxicație prin fum de incendiu
+2,Suspiciune de ruptură de apendice,Durere abdominală severă; febră,Ecografie abdominală; intervenție chirurgicală,TA: 130/80 mmHg; T: 39°C,Simptome recente
+2,Tulburări de ritm cardiac,Palpitații; amețeli,Monitorizare ECG; medicamente i.v.,TA: 115/70 mmHg; FC: 150 bpm,Pacient cu fibrilație atrială
+3,Bronșită cronică,Tuse persistentă; dispnee ușoară,Radiografie toracică; bronhodilatatoare,TA: 125/80 mmHg; SpO2: 92%,Fumător
+3,Sinuzită acută,Durere facială; congestie nazală,Antibiotice orale,TA: 120/80 mmHg,Simptome sezoniere
+3,Erupție cutanată alergică,Mâncărime intensă; erupție,Antihistaminice orale,TA: 120/80 mmHg,Posibilă reacție alergică
+3,Entorsă de gleznă,Durere; edem la gleznă,Radiografie; imobilizare temporară,TA: 120/80 mmHg,Accident sportiv
+3,Otită medie acută,Durere de ureche; febră ușoară,Antibiotice,TA: 115/75 mmHg,Fără antecedente
+3,Luxație de umăr,Durere intensă; mobilitate limitată,Imobilizare; analgezice,TA: 120/80 mmHg,Sportiv
+3,Infecție a pielii cu durere moderată,Rozacee; erupție dureroasă,Antibiotice locale,Semne vitale stabile,Erupție recurentă
+3,Gastroenterită,Greață; crampe abdominale; diaree,Fluide i.v.,TA: 110/70 mmHg,Posibilă intoxicație alimentară
+3,Hematurie fără durere,Sânge în urină; fără alte simptome,Analize de urină,Semne vitale stabile,Fără antecedente
+3,Cefalee moderată,Cefalee persistentă; sensibilitate la lumină,Analgezice orale,TA: 125/85 mmHg,Istoric de migrene
+4,Durere de genunchi ușoară,Durere localizată; mobilitate ușor redusă,Analgezice orale,Semne vitale stabile,Posibilă tendinită
+4,Rinită alergică,Strănuturi frecvente; congestie nazală,Antihistaminice,Semne vitale stabile,Alergie sezonieră
+4,Dermatită ușoară,Erupție localizată; mâncărime,Tratament topic,Semne vitale stabile,Fără complicații
+4,Veruci plantare,Mâncărime; durere la mers,Tratament topic,Semne vitale stabile,Simptome cronice
+4,Hemoragie nazală minoră,Sângerare nazală; fără alte simptome,Pansament simplu,Semne vitale stabile,Suspectează uscare
+4,Bătătură dureroasă pe picior,Dureri la mers; sensibilitate,Pansament; analgezice orale,Semne vitale stabile,Pacient în vârstă
+4,Suspiciune de luxație de deget,Dureri și mobilitate redusă la deget,Imobilizare temporară,Semne vitale stabile,Accident casnic
+4,Durere de gât moderată,Gât inflamat; senzație de uscăciune,Analgezice,Semne vitale stabile,Fără alte simptome
+4,Durere de spate ușoară,Durere la mișcare; fără alte simptome,Analgezice orale,Semne vitale stabile,Fără complicații
+4,Cistită ușoară,Frecvență urinară crescută; disconfort abdominal,Antibiotice orale,Semne vitale stabile,Simptome recurente
+5,Solicitare pentru aviz sportiv,Niciun simptom,Nicio resursă,Semne vitale stabile,Evaluare pentru activitate sportivă
+5,Vaccinare antigripală,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenție sezonieră
+5,Certificat medical pentru concediu,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient fără acuze
+5,Consultație pentru igiena orală,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința pacientului de prevenție
+5,Eliberare rețetă medicamente cronice,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient cronic
+5,Consiliere dietetică,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința de îmbunătățire a sănătății
+5,Consultație pentru managementul greutății,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de scădere în greutate
+5,Control pentru tensiune arterială,Niciun simptom,Nicio resursă,TA: 130/80 mmHg,Evaluare periodică
+5,Solicitare certificat medical pentru angajare,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate administrativă
+5,Informare despre planificare familială,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de consiliere
+1,Traumatism cranian sever,Confuzie; vărsături; pierderea cunoștinței,CT cerebral; monitorizare,TA: 150/95 mmHg; FC: 85 bpm,Accident auto
+1,Edem pulmonar acut,Dispnee severă; cianoză,Diuretice i.v.; CPAP,TA: 180/110 mmHg; SpO2: 82%,Pacient cunoscut cu insuficiență cardiacă
+1,Septicemie,Febră mare; frisoane; confuzie,Administrare antibiotice i.v.; monitorizare,TA: 85/55 mmHg; T: 39.8°C,Infecție bacteriană sistemică
+1,Șoc anafilactic sever,Edem al feței; respirație dificilă,Administrare adrenalină; monitorizare,TA: 90/60 mmHg; FC: 130 bpm,Reacție alergică severă la alimente
+1,Status epilepticus,Convulsii continue; pierderea cunoștinței,Anticonvulsivante i.v.,TA: 140/80 mmHg; FC: 105 bpm,Istoric de epilepsie
+2,Durere toracică de origine necunoscută,Durere persistentă în piept; transpirație,ECG; monitorizare,TA: 130/85 mmHg; FC: 88 bpm,Fără antecedente cunoscute
+2,Colică renală,Durere intensă în flanc; greață,Analgezice i.v.; ecografie abdominală,TA: 125/80 mmHg; FC: 100 bpm,Pacient cu istoric de litiază renală
+2,Cetoacidoză diabetică,Respirație rapidă; glicemie ridicată,Insulină i.v.; fluide i.v.,Glicemie: 450 mg/dL; TA: 100/70 mmHg,Diabet tip 1
+2,Intoxicație cu alcool,Confuzie; vărsături,Monitorizare; fluide i.v.,TA: 110/70 mmHg; FC: 95 bpm,Pacient cu istoric de consum cronic
+2,Pneumonie severă,Febră mare; dificultăți respiratorii,Antibiotice i.v.; oxigenoterapie,TA: 125/80 mmHg; SpO2: 90%,Pacient în vârstă
+2,Infecție urinară severă,Frecvență urinară crescută; febră,Antibiotice i.v.; analize de urină,TA: 115/75 mmHg; T: 38.5°C,Pacient cu risc de pielonefrită
+3,Bronșită acută,Tuse persistentă; febră scăzută,Antibiotice orale,TA: 120/80 mmHg; T: 37.8°C,Pacient fumător
+3,Sinuzită,Durere facială; congestie nazală,Antibiotice; decongestionante,Semne vitale stabile,Simptome sezoniere
+3,Gastroenterită acută,Greață; crampe abdominale,Fluide i.v.,TA: 110/70 mmHg; T: 37.5°C,Posibilă infecție alimentară
+3,Durere de spate acută,Durere intensă în partea inferioară a spatelui,Analgezice orale,TA: 120/80 mmHg,Fără alte simptome
+3,Luxație de umăr,Durere intensă; mobilitate limitată,Imobilizare temporară,Semne vitale stabile,Accident sportiv
+3,Infecție a pielii,Erupție roșie; durere la atingere,Antibiotic local,Semne vitale stabile,Posibilă celulită
+3,Durere de genunchi,Durere intensă la mers; mobilitate limitată,Radiografie,TA: 125/80 mmHg,Fără antecedente cunoscute
+3,Cefalee severă,Cefalee persistentă; sensibilitate la lumină,Analgezice orale,TA: 125/85 mmHg,Istoric de migrene
+4,Durere de gât ușoară,Dificultate la înghițire; roșeață la nivelul gâtului,Analgezic oral,Semne vitale stabile,Fără alte simptome
+4,Sinuzită cronică,Durere facială ușoară; congestie nazală,Decongestionante nazale,Semne vitale stabile,Simptome persistente
+4,Otită externă,Durere ușoară la nivelul urechii; prurit,Antibiotic local,Semne vitale stabile,Fără febră
+4,Gastrită,Arsuri în epigastru; greață,Antiacid oral,Semne vitale stabile,Fără istoric semnificativ
+4,Durere de umăr,Dificultate la ridicarea brațului,Analgezic oral,Semne vitale stabile,Suspectată inflamație
+4,Rinită alergică,Strănuturi frecvente; congestie nazală,Antihistaminice,Semne vitale stabile,Alergie sezonieră
+4,Bătătură pe picior,Mâncărime; durere ușoară la mers,Pansament simplu,Semne vitale stabile,Simptome minore
+4,Hemoragie nazală minoră,Sângerare minoră la nivelul nasului,Pansament simplu,Semne vitale stabile,Suspectează uscăciune nazală
+4,Erupție cutanată minoră,Mâncărime localizată; roșeață,Tratament topic,Semne vitale stabile,Reacție la o cremă
+5,Consultație pentru vaccinare,Niciun simptom,Nicio resursă,Semne vitale stabile,Consultație de rutină
+5,Certificat medical pentru angajare,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate administrativă
+5,Eliberare rețetă pentru boli cronice,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient cronic
+5,Consiliere pentru dieta sănătoasă,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de consiliere nutrițională
+5,Control pentru tensiune arterială,Niciun simptom,Nicio resursă,TA: 135/85 mmHg,Consultație periodică
+5,Solicitare informații contraceptive,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de consiliere familială
+5,Consultație pentru sănătate mentală,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de suport psihologic
+5,Solicitare pentru certificat sportiv,Niciun simptom,Nicio resursă,Semne vitale stabile,Evaluare pentru activități fizice
+5,Vaccinare antigripală,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenție sezonieră
+5,Consiliere pentru renunțare la fumat,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorință de suport pentru renunțare
+1,Insuficiență respiratorie severă,Respirație superficială; cianoză,Ventilație mecanică; intubație,SpO2: 82%; FR: 28/min,Necesită intervenție imediată
+1,Criză de astm acută severă,Dispnee intensă; wheezing,Bronhodilatatoare nebulizate; oxigenoterapie,SpO2: 85%; FR: 30/min,Istoric de astm bronșic
+1,Șoc septic,Hipotensiune; febră mare; confuzie,Antibiotice i.v.; fluide i.v.,TA: 80/50 mmHg; T: 39°C,Suspectă infecție bacteriană sistemică
+1,Edem pulmonar acut,Dispnee severă; raluri umede,Diuretice i.v.; nitroglicerină,TA: 160/100 mmHg; SpO2: 88%,Pacient cunoscut cu insuficiență cardiacă
+1,Hemoragie gastrointestinală masivă,Hematemeză; paloare,Transfuzie sanguină; stabilizare hemodinamică,TA: 75/45 mmHg,Suspectă ulcer perforat
+1,Comă hipoglicemică,Confuzie; transpirații; tremor sever,Administrare glucoză i.v.,Glicemie: 30 mg/dL,Pacient diabetic insulinodependent
+1,Stop respirator,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP),TA: N/A; FC: N/A,Pacient în stare critică
+1,Tamponadă cardiacă,Hipotensiune severă; jugulare turgescente,Pericardiocenteză de urgență,TA: 80/50 mmHg; FC: 110 bpm,Acumulare lichid pericardic
+1,Criză hipertensivă,Durere de cap intensă; vedere încețoșată,Administrare nitroglicerină i.v.; monitorizare,TA: 220/130 mmHg,Istoric de hipertensiune arterială
+1,Insuficiență renală acută,Edem generalizat; scăderea diurezei,Administrare fluide i.v.,TA: 140/90 mmHg; FC: 105 bpm,Pacient cu istoric de boli renale
+2,Durere abdominală intensă,Durere acută; paloare; greață,Ecografie abdominală; analgezice i.v.,TA: 120/80 mmHg; FC: 90 bpm,Fără antecedente cunoscute
+2,Criză de astm severă,Dispnee severă; wheezing,Administrare bronhodilatatoare nebulizate,SpO2: 87%; FR: 30/min,Astmatic
+2,Fractură deschisă de femur,Durere intensă; deformare evidentă,Imobilizare; intervenție chirurgicală,TA: 130/85 mmHg,Accident rutier
+2,Infecție urinară severă,Frecvență urinară crescută; febră,Antibiotice i.v.; analize urină,TA: 115/70 mmHg; T: 39°C,Pacient imunocompromis
+2,Hepatită acută,Febră; icter; durere abdominală,Teste hepatice; monitorizare,T: 38°C,Pacient cu risc de hepatită virală
+2,Hipoglicemie severă,Confuzie; transpirații reci,Administrare glucoză i.v.,Glicemie: 45 mg/dL,Diabetic tip 1
+2,Intoxicație alcoolică acută,Confuzie; vărsături,Monitorizare; hidratare i.v.,TA: 110/70 mmHg; FC: 95 bpm,Istoric de consum cronic de alcool
+2,Pneumonie severă,Febră mare; dificultăți respiratorii,Antibiotice i.v.; oxigenoterapie,SpO2: 89%; FR: 28/min,Pacient cu risc crescut de complicații
+2,Accident vascular ischemic,Cefalee intensă; confuzie,CT cerebral; tromboliză,TA: 150/95 mmHg; FC: 80 bpm,Risc crescut de AVC
+2,Cistită cu durere intensă,Frecvență urinară crescută; durere,Antibiotice; analize urină,TA: 120/80 mmHg,Pacient fără istoric de infecții urinare
+3,Bronșită cronică acutizată,Tuse persistentă; febră scăzută,Antibiotice orale,TA: 125/85 mmHg,Fumător cronic
+3,Sciatică,Durere intensă în picior; amorțeală,Analgezice orale; fizioterapie,TA: 130/80 mmHg,Durere cu iradiere pe nervul sciatic
+3,Sinuzită acută,Durere facială; congestie nazală,Decongestionante; antibiotice orale,T: 37.8°C,Fără istoric semnificativ
+3,Erupție cutanată alergică,Erupție cutanată; mâncărime,Antihistaminice orale,TA: 115/75 mmHg,Reacție alergică minoră
+3,Greață și vărsături persistente,Greață intensă; deshidratare,Fluide i.v.; antiemetice,T: 37.5°C; TA: 110/70 mmHg,Simptome recurente
+3,Luxație de umăr,Durere intensă la umăr; mobilitate redusă,Imobilizare temporară,TA: 120/80 mmHg,Accident sportiv
+3,Infecție cutanată moderată,Dureri la locul infecției; febră scăzută,Antibiotic oral,TA: 125/80 mmHg; T: 37.5°C,Posibilă celulită
+3,Dureri articulare intense,Durere la articulații multiple; edem,Analgezice orale; consult reumatologic,TA: 130/85 mmHg,Istoric de artrită reumatoidă
+3,Hemoroizi acutizați,Sângerare anală; durere intensă,Tratament local,T: 37.2°C,Pacient cunoscut cu hemoroizi
+3,Durere abdominală cronică,Durere difuză la nivel abdominal; greață,Investigații imagistice; analgezice,TA: 120/80 mmHg,Simptome persistente de mai multe luni
+4,Dermatită de contact,Prurit intens; erupție cutanată,Antihistaminice orale,TA: 115/75 mmHg,Alergie la produse cosmetice
+4,Rozacee eritematoasă,Erupție facială roșie,Tratament topic cu creme,Semne vitale stabile,Efect recurent
+4,Gastrită,Arsuri în epigastru; greață,Antiacid oral,TA: 120/80 mmHg,Istoric de simptome gastrice
+4,Otită externă,Durere ușoară la ureche; secreție,Antibiotic local,TA: 115/75 mmHg,Fără alte simptome
+4,Hemoragie nazală,Epistaxis; fără alte simptome,Compresie nazală,Semne vitale stabile,Episod ocazional
+4,Bătătură dureroasă,Dureri la mers; sensibilitate,Pansament simplu,Semne vitale stabile,Contact frecvent cu încălțăminte incomodă
+4,Entorsă de gleznă,Durere; edem ușor la nivelul gleznei,Imobilizare temporară,Semne vitale stabile,Accident casnic
+4,Dureri lombare moderate,Durere în zona lombară,Analgezic oral,Semne vitale stabile,Suprasolicitare musculară
+4,Cefalee tensională,Durere de cap moderată,Analgezic oral,TA: 120/80 mmHg,Simptome cauzate de stres
+4,Durere de dinți intensă,Durere localizată; sensibilitate,Anestezic local; consult stomatologic,Semne vitale stabile,Suspect abces dentar
+5,Consultație pentru vaccinare antigripală,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenție sezonieră
+5,Consiliere pentru renunțare la fumat,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința de a înceta fumatul
+5,Solicitare eliberare certificat medical,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate administrativă
+5,Consultație pentru igiena dentară,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenirea problemelor dentare
+5,Informații despre contraceptive,Niciun simptom,Nicio resursă,Semne vitale stabile,Consultație pentru planificare familială
+5,Consultație pentru control tensiune,Niciun simptom,Nicio resursă,TA: 130/80 mmHg,Consultație periodică
+5,Consultație pentru diete,Niciun simptom,Nicio resursă,Semne vitale stabile,Informații despre diete echilibrate
+5,Solicitare rețetă medicamente cronice,Niciun simptom,Nicio resursă,Semne vitale stabile,Pacient cu tratament cronic
+5,Consultație pentru simptome nespecifice,Niciun simptom,Nicio resursă,Semne vitale stabile,Solicitare generală pentru evaluare
+5,Vaccinare anti-hepatită,Niciun simptom,Nicio resursă,Semne vitale stabile,Protecție împotriva hepatitei
+1,Stop cardiorespirator,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP); defibrilare,TA: N/A; FC: N/A,Necesită intervenție imediată
+1,Criză de astm severă,Dispnee intensă; cianoză,Bronhodilatatoare nebulizate; oxigenoterapie,SpO2: 80%; FR: 32/min,Istoric de astm
+1,Hemorragie internă,Hipotensiune severă; paloare,Transfuzie sanguină; stabilizare,TA: 70/40 mmHg; FC: 120 bpm,Suspect ruptură de organ
+1,Edem pulmonar acut,Respirație zgomotoasă; ortopnee,Diuretice i.v.; oxigenoterapie,SpO2: 85%; TA: 160/100 mmHg,Pacient cu insuficiență cardiacă
+1,Comă diabetică,Confuzie; respirație cu miros de acetonă,Administrare insulină; fluide i.v.,Glicemie: 600 mg/dL,Diabet zaharat cunoscut
+1,Traumatism cranian sever,Confuzie; pupile dilatate,Monitorizare neurologică; CT,TA: 140/90 mmHg; FC: 60 bpm,Cădere de la înălțime
+1,Șoc anafilactic,Dispnee severă; edem facial,Administrare adrenalină; intubație,TA: 80/50 mmHg; FC: 130 bpm,Reacție la antibiotic
+1,Infarct miocardic acut,Durere toracică intensă; transpirații reci,Monitorizare ECG; nitroglicerină i.v.,TA: 90/60 mmHg; FC: 110 bpm,Pacient hipertensiv
+1,Pneumotorax sufocant,Dispnee severă; absența murmurului vezicular,Decompresie cu ac; drenaj toracic,TA: 85/60 mmHg; FC: 115 bpm,Traumatism toracic
+1,Tamponadă cardiacă,Hipotensiune; jugulare turgescente,Pericardiocenteză,TA: 75/45 mmHg; FC: 110 bpm,Acumulare lichid pericardic
+2,Colică renală,Durere intensă la rinichi; hematurie,Analgezice i.v.; ecografie,TA: 130/80 mmHg; FC: 95 bpm,Istoric de litiază renală
+2,Pneumonie severă,Febră mare; dificultăți respiratorii,Antibiotice i.v.; oxigen,SpO2: 90%; FR: 28/min,Pacient vârstnic
+2,Fractură deschisă de femur,Durere intensă; deformare la picior,Imobilizare; analgezice,TA: 120/80 mmHg,Accident rutier
+2,Suspiciune de ruptură de apendice,Durere abdominală severă; febră,Ecografie abdominală,TA: 130/85 mmHg; T: 39°C,Durere intensificată recent
+2,Criză epileptică,Convulsii; pierderea cunoștinței,Administrare anticonvulsivante,TA: 140/85 mmHg; FC: 100 bpm,Pacient cunoscut cu epilepsie
+2,Hepatită acută,Febră; icter; greață,Monitorizare; analize hepatice,T: 38°C,Pacient cu risc crescut de hepatită
+2,Durere toracică nespecifică,Durere persistentă; disconfort toracic,Monitorizare ECG,TA: 130/85 mmHg,Simptome recente
+2,Hipoglicemie severă,Confuzie; transpirații reci,Administrare glucoză i.v.,Glicemie: 40 mg/dL,Diabetic insulinodependent
+2,Caz de intoxicație alcoolică,Confuzie; miros de alcool,Monitorizare; hidratare i.v.,TA: 110/70 mmHg,Pacient cronic alcoolic
+2,Sciatică acută,Durere intensă pe picior; amorțeală,Analgezice i.v.,TA: 125/80 mmHg,Durere iradiată de-a lungul piciorului
+3,Entorsă de gleznă,Durere; edem la nivelul gleznei,Imobilizare temporară,TA: 120/80 mmHg,Accident sportiv minor
+3,Bronșită acută,Tuse persistentă; febră scăzută,Antibiotice orale,TA: 125/85 mmHg,Fumător cronic
+3,Gastrită,Durere epigastrică; arsuri,Antiacid oral,TA: 120/80 mmHg,Simptome de scurtă durată
+3,Durere de spate acută,Durere intensă lombară,Analgezice orale,TA: 130/85 mmHg,Fără alte simptome
+3,Otită externă,Durere ușoară la ureche; secreție,Antibiotic local,TA: 115/75 mmHg,Fără alte simptome
+3,Erupție cutanată alergică,Erupție; prurit,Antihistaminice orale,TA: 115/75 mmHg,Reacție minoră la alergeni
+3,Migrenă,Durere de cap severă; greață,Analgezice i.v.,TA: 130/85 mmHg,Istoric de migrene
+3,Reacție alergică moderată,Prurit; edem palpebral,Antihistaminice i.v.,TA: 120/80 mmHg; FC: 90 bpm,Alergie la medicamente
+3,Luxație de umăr,Durere intensă; mobilitate limitată,Imobilizare,TA: 120/80 mmHg,Accident sportiv
+3,Infecție la nivelul urechii,Durere; secreții purulente,Antibiotic oral,TA: 115/75 mmHg,Fără alte simptome
+4,Hemoragie nazală minoră,Epistaxis; fără alte simptome,Pansament simplu,Semne vitale stabile,Epistaxis ocazional
+4,Durere de dinți,Durere pulsatilă la maxilar,Consult stomatologic,Semne vitale stabile,Suspect carie
+4,Dermatită de contact,Erupție cutanată; prurit,Tratament topic,Semne vitale stabile,Contact recent cu substanțe iritante
+4,Cefalee moderată,Dureri de cap; greață,Analgezic oral,Semne vitale stabile,Istoric de migrene ușoare
+4,Bătătură dureroasă,Dureri la mers; sensibilitate,Pansament simplu,Semne vitale stabile,Contact frecvent cu încălțăminte incomodă
+4,Sinuzită,Durere facială; congestie nazală,Decongestionante,TA: 120/80 mmHg,Simptome sezoniere
+4,Dermatită alergică,Erupție cutanată localizată,Antihistaminic oral,Semne vitale stabile,Alergie sezonieră
+4,Gastrită,Durere epigastrică; arsuri,Antiacid oral,TA: 120/80 mmHg,Istoric de dureri gastrice
+4,Veruci plantare,Mâncărime; durere la mers,Tratament local,Semne vitale stabile,Frecvență ocazională
+4,Durere de gât,Durere la înghițire; senzație de arsură,Analgezic oral,Semne vitale stabile,Simptome recente
+5,Consultație pentru vaccin antigripal,Niciun simptom,Nicio resursă,Semne vitale stabile,Prevenție sezonieră
+5,Consiliere pentru dietă echilibrată,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința de a îmbunătăți alimentația
+5,Solicitare certificat medical,Niciun simptom,Nicio resursă,Semne vitale stabile,Necesitate administrativă
+5,Consultație pentru igiena orală,Niciun simptom,Nicio resursă,Semne vitale stabile,Dorința de a preveni carii
+5,Informații despre contraceptive,Niciun simptom,Nicio resursă,Semne vitale stabile,Consultație de rutină
+5,Consultație pentru tensiune arterială,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Monitorizare regulată
+1,Stop cardiorespirator în urma accidentului,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP); defibrilare,TA: N/A; FC: N/A,Impact sever frontal
+1,Hemotorax sever,Sângerare; dispnee,Decompresie cu ac; drenaj toracic,TA: 90/60 mmHg; FC: 120 bpm,Accident cu fractură de coaste
+1,Traumatism cranian sever,Inconștiență; pupile inegale,Monitorizare neurologică; CT,TA: 130/80 mmHg; FC: 70 bpm,Impact frontal
+1,Șoc hipovolemic,Paloare; puls slab; transpirație,Administrare fluide i.v.; transfuzie,TA: 70/40 mmHg; FC: 130 bpm,Hemorragie internă suspectată
+1,Fractură de femur deschisă,Durere intensă; deformare severă,Imobilizare; analgezice i.v.,TA: 125/80 mmHg; FC: 100 bpm,Accident cu impact lateral
+1,Pneumotorax bilateral,Dispnee severă; lipsa murmurului respirator,Decompresie toracică; drenaj,TA: 90/55 mmHg; FC: 115 bpm,Accident frontal sever
+1,Tamponadă cardiacă,Hipotensiune; jugulare turgescente,Pericardiocenteză,TA: 80/50 mmHg; FC: 110 bpm,Impact toracic sever
+1,Edem cerebral acut,Confuzie; cefalee intensă,Monitorizare neurologică; CT cerebral,TA: 150/90 mmHg; FC: 80 bpm,Traumatism cranian sever
+1,Hemorragie abdominală,Durere abdominală intensă; hipotensiune,Transfuzie; CT abdominal,TA: 70/40 mmHg; FC: 125 bpm,Traumatism abdominal
+1,Insuficiență respiratorie acută,Dispnee severă; cianoză,Ventilație mecanică,SpO2: 80%; FR: 35/min,Accident cu fractură costală
+2,Fractură de claviculă,Durere intensă; deformare,Imobilizare; analgezice,TA: 125/85 mmHg; FC: 95 bpm,Impact lateral
+2,Contuzie toracică,Durere la respirație; vânătăi,Monitorizare,TA: 130/85 mmHg; FC: 85 bpm,Accident frontal
+2,Luxație de șold,Durere severă; imposibilitate de mișcare,Imobilizare; analgezice,TA: 120/80 mmHg,Accident cu impact lateral
+2,Hematom subdural,Cefalee intensă; confuzie,Monitorizare neurologică; CT cerebral,TA: 140/85 mmHg; FC: 90 bpm,Traumatism cranian
+2,Fractură de humerus,Durere intensă; deformare la braț,Imobilizare; analgezice,TA: 120/80 mmHg,Accident cu impact lateral
+2,Leziuni ale coloanei vertebrale,Dureri severe la nivelul spatelui; furnicături,Imobilizare; radiografie,TA: 130/85 mmHg,Accident frontal
+2,Fractură de maxilar,Durere intensă; dificultăți la vorbit,Imobilizare; analgezice,TA: 125/80 mmHg,Impact frontal
+2,Fractură de bazin,Durere intensă; mobilitate redusă,Stabilizare; analgezice i.v.,TA: 110/70 mmHg,Accident frontal
+2,Plăgi multiple la nivelul feței,Sângerare; durere,Monitorizare; sutură,TA: 120/80 mmHg,Accident frontal
+2,Contuzie abdominală,Durere în zona abdomenului; greață,Monitorizare,TA: 130/80 mmHg; FC: 85 bpm,Accident lateral
+3,Entorsă de gleznă,Durere; edem la nivelul gleznei,Imobilizare temporară,TA: 120/80 mmHg,Accident minor
+3,Contuzie la nivelul umărului,Durere ușoară; mobilitate redusă,Analgezic oral,TA: 125/80 mmHg,Accident minor
+3,Luxație de umăr,Durere intensă; deformare la umăr,Imobilizare temporară,TA: 120/85 mmHg,Accident sportiv
+3,Hematome extinse la membre,Durere moderată; vânătăi multiple,Monitorizare,TA: 130/85 mmHg,Accident minor
+3,Plăgi superficiale la nivelul feței,Sângerare minoră; durere localizată,Pansament; analgezic oral,TA: 120/80 mmHg,Accident ușor
+3,Luxație de deget,Durere și edem la nivelul degetului,Imobilizare temporară,TA: 120/80 mmHg,Accident ușor
+3,Contuzie la genunchi,Durere ușoară; vânătăi,Monitorizare,TA: 125/80 mmHg,Accident minor
+3,Fractură de antebraț,Durere intensă; deformare la nivelul brațului,Imobilizare; analgezic i.m.,TA: 120/85 mmHg,Accident frontal
+3,Contuzie la coapsă,Durere moderată; vânătăi,Pansament simplu,TA: 120/85 mmHg,Accident minor
+3,Contuzie la abdomen,Durere moderată; greață,Monitorizare,TA: 130/85 mmHg,Impact frontal
+4,Durere cervicală ușoară,Disconfort la nivelul gâtului; mobilitate redusă,Pansament; analgezic oral,TA: 120/80 mmHg,Accident ușor
+4,Contuzie la nivelul brațului,Durere ușoară; mobilitate redusă,Pansament simplu,TA: 125/85 mmHg,Accident ușor
+4,Bătătură pe palmă,Mâncărime; disconfort la atingere,Pansament simplu,TA: 120/80 mmHg,Accident ușor
+4,Luxație de gleznă minoră,Durere și edem localizat,Imobilizare temporară,TA: 125/80 mmHg,Accident ușor
+4,Contuzie la nivelul gleznei,Durere la mers; mobilitate redusă,Monitorizare,TA: 120/85 mmHg,Accident ușor
+4,Contuzie la nivelul cotului,Durere ușoară la mișcare,Pansament simplu,TA: 125/80 mmHg,Accident ușor
+4,Hematome la nivelul spatelui,Durere moderată; vânătăi,Monitorizare,TA: 120/80 mmHg,Impact ușor
+4,Contuzie facială,Durere și edem facial,Monitorizare,TA: 130/85 mmHg,Accident ușor
+4,Durere lombară ușoară,Disconfort la spate; mobilitate redusă,Monitorizare,TA: 120/80 mmHg,Accident ușor
+4,Contuzie la nivelul genunchiului,Durere și edem,Pansament simplu,TA: 125/80 mmHg,Impact ușor
+5,Consultație pentru control post-accident,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Evaluare post-traumatică
+5,Consultație pentru leziuni minore,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Verificare după accident minor
+5,Consiliere pentru stres post-accident,Niciun simptom,Nicio resursă,TA: 125/80 mmHg,Dorința de suport psihologic
+5,Control tensiune arterială post-traumatică,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Monitorizare post-accident
+5,Eliberare certificat post-accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Necesitate administrativă
+5,Solicitare consiliere pentru anxietate,Niciun simptom,Nicio resursă,TA: 125/80 mmHg,Dorința de suport psihologic
+5,Vaccinare antitetanos,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Prevenție în caz de răni minore
+5,Consiliere pentru durere cronică,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Suport pentru recuperare post-accident
+5,Consultație pentru reabilitare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de recuperare post-accident
+5,Control pentru mobilitate post-accident,Niciun simptom,Nicio resursă,TA: 125/80 mmHg,Monitorizare post-reabilitare
+3,Contuzie la genunchi,Durere moderată; vânătăi,Monitorizare,TA: 130/80 mmHg,Accident ușor
+1,Stop cardiorespirator în urma accidentului,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP); defibrilare,TA: N/A; FC: N/A,Impact sever frontal
+2,Luxație de șold,Durere severă; imposibilitate de mișcare,Imobilizare; analgezice,TA: 120/80 mmHg,Accident cu impact lateral
+4,Contuzie la nivelul gleznei,Durere ușoară la mers; edem,Monitorizare,TA: 125/80 mmHg,Accident minor
+1,Șoc hipovolemic,Paloare; puls slab; transpirație,Administrare fluide i.v.; transfuzie sanguină,TA: 70/40 mmHg; FC: 130 bpm,Hemorragie internă
+2,Fractură de bazin,Durere intensă; mobilitate redusă,Stabilizare; analgezice i.v.,TA: 110/70 mmHg,Accident frontal
+3,Fractură de antebraț,Durere intensă; deformare la nivelul brațului,Imobilizare; analgezic i.m.,TA: 120/85 mmHg,Accident frontal
+1,Hemotorax sever,Sângerare; dispnee,Decompresie cu ac; drenaj toracic,TA: 90/60 mmHg; FC: 120 bpm,Fractură de coaste
+4,Durere cervicală,Disconfort la nivelul gâtului; mobilitate redusă,Pansament; analgezic oral,TA: 120/80 mmHg,Accident ușor
+5,Consultație pentru eliberare certificat,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Evaluare post-traumatică
+3,Contuzie la coapsă,Durere moderată; vânătăi,Pansament simplu,TA: 120/85 mmHg,Accident minor
+4,Durere lombară,Durere ușoară la spate; mobilitate redusă,Analgezic oral,TA: 130/80 mmHg,Accident ușor
+2,Hematome extinse la membre,Durere severă; edem,Monitorizare; analgezic,TA: 125/85 mmHg,Accident frontal
+1,Traumatism cranian sever,Inconștiență; pupile dilatate,Monitorizare neurologică; CT,TA: 140/90 mmHg; FC: 60 bpm,Impact frontal sever
+2,Luxație de umăr,Durere intensă; imposibilitate de mișcare,Imobilizare; analgezic,TA: 125/85 mmHg,Accident sportiv
+3,Contuzie la abdomen,Durere ușoară; greață,Monitorizare,TA: 125/80 mmHg,Accident ușor
+5,Consiliere pentru stres post-traumatic,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de suport psihologic
+4,Contuzie la nivelul umărului,Durere ușoară; edem,Monitorizare,TA: 125/80 mmHg,Accident minor
+1,Pneumotorax sufocant,Dispnee severă; absența murmurului vezicular,Decompresie cu ac; drenaj toracic,TA: 85/55 mmHg; FC: 115 bpm,Traumatism toracic
+2,Plăgi multiple la nivelul feței,Sângerare; durere,Monitorizare; sutură,TA: 120/80 mmHg,Impact frontal
+5,Vaccinare antitetanos,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Prevenție în caz de răni minore
+3,Fractură de deget,Durere moderată; edem,Imobilizare temporară,TA: 125/85 mmHg,Accident minor
+2,Hematom subdural,Confuzie; cefalee intensă,Monitorizare neurologică; CT cerebral,TA: 135/85 mmHg,Traumatism cranian
+1,Edem pulmonar acut,Respirație zgomotoasă; ortopnee,Diuretice i.v.; CPAP,SpO2: 85%; TA: 160/100 mmHg,Accident cu traumă toracică
+4,Contuzie la nivelul brațului,Durere ușoară; mobilitate redusă,Pansament simplu,TA: 125/80 mmHg,Accident minor
+3,Plăgi superficiale,Durere moderată; sângerare,Pansament; analgezic,TA: 120/80 mmHg,Accident ușor
+5,Control tensiune arterială,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Monitorizare post-accident
+1,Hemorragie internă severă,Hipotensiune; paloare,Administrare fluide i.v.; transfuzie,TA: 70/45 mmHg; FC: 130 bpm,Accident sever
+2,Fractură de maxilar,Durere intensă; edem facial,Imobilizare; analgezic i.v.,TA: 125/85 mmHg,Accident frontal
+3,Contuzie la spate,Durere moderată; edem,Monitorizare,TA: 120/80 mmHg,Accident ușor
+4,Luxație de gleznă minoră,Durere ușoară la mișcare,Imobilizare temporară,TA: 125/80 mmHg,Accident minor
+1,Stop respirator în urma accidentului,Apnee; cianoză,Resuscitare respiratorie,TA: N/A; FC: N/A,Accident sever
+2,Leziuni ale coloanei vertebrale,Dureri severe la spate; mobilitate redusă,Imobilizare; radiografie,TA: 125/80 mmHg,Accident frontal
+4,Hematome ușoare,Disconfort la atingere,Pansament,TA: 130/85 mmHg,Accident ușor
+3,Contuzie toracică,Durere la respirație; vânătăi,Monitorizare,TA: 130/85 mmHg,Impact frontal
+5,Consiliere pentru recuperare post-accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de recuperare
+1,Tamponadă cardiacă,Hipotensiune; jugulare turgescente,Pericardiocenteză,TA: 80/50 mmHg; FC: 110 bpm,Impact toracic sever
+2,Fractură de claviculă,Durere intensă; deformare,Imobilizare; analgezic,TA: 125/85 mmHg,Accident frontal
+3,Contuzie abdominală,Durere ușoară; greață,Monitorizare,TA: 120/80 mmHg,Accident ușor
+1,Hemotorax bilateral,Dispnee; durere toracică intensă,Decompresie toracică; drenaj,TA: 90/50 mmHg; FC: 115 bpm,Impact frontal sever
+4,Contuzie la nivelul cotului,Durere moderată; vânătăi,Pansament simplu,TA: 125/80 mmHg,Accident minor
+5,Consultație pentru certificat medical,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Evaluare post-traumatică
+2,Fractură de humerus,Durere intensă; deformare la braț,Imobilizare; analgezic i.v.,TA: 125/80 mmHg,Impact lateral
+3,Fractură de gleznă,Durere moderată; deformare,Radiografie; imobilizare,TA: 130/80 mmHg,Accident sportiv
+4,Contuzie facială,Durere moderată; edem,Pansament,TA: 120/80 mmHg,Impact ușor
+2,Luxație de deget,Durere; deformare,Imobilizare,TA: 125/85 mmHg,Accident sportiv
+5,Consiliere pentru anxietate,Niciun simptom,Nicio resursă,TA: 130/80 mmHg,Dorința de suport psihologic
+1,Insuficiență respiratorie acută,Dispnee severă; cianoză,Ventilație mecanică,SpO2: 82%; TA: 100/60 mmHg,Accident frontal
+3,Durere de șold,Durere moderată; edem,Monitorizare,TA: 120/80 mmHg,Accident ușor
+4,Durere la nivelul umărului,Durere ușoară; mobilitate redusă,Analgezic oral,TA: 125/80 mmHg,Impact ușor
+1,Stop cardiorespirator după accident cu motocicleta,Apnee; lipsa pulsului,Resuscitare cardiopulmonară (RCP); defibrilare,TA: N/A; FC: N/A,Impact frontal sever
+1,Hemotorax masiv,Sângerare intensă; dispnee,Decompresie toracică; drenaj,TA: 90/60 mmHg; FC: 120 bpm,Accident cu impact lateral
+1,Traumatism cranian sever,Inconștiență; pupile dilatate,Monitorizare neurologică; CT cerebral,TA: 130/80 mmHg; FC: 60 bpm,Cădere fără cască
+1,Șoc hipovolemic sever,Paloare; transpirații; puls slab,Administrare fluide i.v.; transfuzie,TA: 70/40 mmHg; FC: 125 bpm,Hemorragie internă
+2,Fractură de femur,Durere intensă; deformare,Imobilizare; analgezice i.v.,TA: 120/80 mmHg,Impact frontal
+2,Luxație de umăr,Durere intensă; imobilitate,Imobilizare; analgezice,TA: 125/80 mmHg,Accident cu cădere laterală
+2,Hematom subdural,Confuzie; cefalee intensă,Monitorizare neurologică; CT cerebral,TA: 135/85 mmHg,Traumatism cranian
+3,Contuzie la nivelul genunchiului,Durere moderată; edem,Monitorizare,TA: 120/80 mmHg,Impact minor
+3,Fractură de deget,Durere intensă; edem,Imobilizare temporară,TA: 125/85 mmHg,Accident minor
+4,Durere cervicală ușoară,Disconfort la gât; mobilitate redusă,Pansament; analgezic oral,TA: 120/80 mmHg,Accident ușor
+4,Luxație de gleznă minoră,Durere ușoară; edem,Imobilizare temporară,TA: 120/80 mmHg,Cădere la viteză mică
+1,Pneumotorax sufocant,Dispnee severă; absența murmurului respirator,Decompresie toracică; drenaj,TA: 85/55 mmHg; FC: 120 bpm,Accident grav cu impact toracic
+2,Fractură de claviculă,Durere intensă; deformare,Imobilizare; analgezice,TA: 125/85 mmHg,Cădere frontală
+2,Leziuni ale coloanei vertebrale,Dureri severe la spate; amorțeală,Imobilizare; radiografie,TA: 130/85 mmHg,Accident cu impact la spate
+3,Contuzie la nivelul cotului,Durere moderată; edem,Pansament simplu,TA: 125/80 mmHg,Cădere ușoară
+1,Hemorragie internă abdominală,Dureri abdominale intense; hipotensiune,Transfuzie sanguină,TA: 70/40 mmHg; FC: 130 bpm,Traumatism abdominal sever
+2,Fractură de bazin,Durere intensă; imobilitate,Stabilizare; analgezice i.v.,TA: 110/70 mmHg,Accident cu impact lateral
+3,Contuzie la nivelul brațului,Durere moderată; vânătăi,Monitorizare,TA: 120/85 mmHg,Accident minor
+4,Durere lombară ușoară,Durere la spate; mobilitate redusă,Monitorizare,TA: 120/80 mmHg,Accident ușor
+5,Control post-accident,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Evaluare după cădere minoră
+1,Edem cerebral acut,Confuzie severă; cefalee intensă,Monitorizare neurologică; CT cerebral,TA: 150/95 mmHg; FC: 80 bpm,Impact la nivelul capului
+3,Fractură de antebraț,Durere intensă; deformare,Imobilizare; analgezic i.m.,TA: 120/85 mmHg,Cădere pe braț
+2,Plăgi multiple pe membre inferioare,Sângerare; durere,Monitorizare; sutură,TA: 120/80 mmHg,Accident cu alunecare pe asfalt
+1,Insuficiență respiratorie acută,Dispnee severă; cianoză,Ventilație mecanică,SpO2: 82%; FR: 35/min,Traumatism toracic
+2,Fractură de humerus,Durere intensă; deformare la nivelul brațului,Imobilizare; analgezic i.v.,TA: 125/80 mmHg,Accident cu cădere frontală
+3,Contuzie la nivelul abdomenului,Durere ușoară; greață,Monitorizare,TA: 130/85 mmHg,Impact frontal
+5,Consiliere pentru stres post-accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de suport psihologic
+4,Contuzie la nivelul gleznei,Durere la mers; mobilitate redusă,Pansament simplu,TA: 120/85 mmHg,Accident ușor
+1,Hemorragie externă masivă,Sângerare abundentă; hipotensiune severă,Transfuzie sanguină urgentă,TA: 65/40 mmHg; FC: 135 bpm,Tăieturi profunde pe coapse
+3,Contuzie toracică,Durere toracică moderată; vânătăi,Monitorizare,TA: 130/85 mmHg,Impact frontal
+4,Contuzie la nivelul umărului,Durere ușoară; mobilitate redusă,Analgezic oral,TA: 125/80 mmHg,Accident ușor
+2,Fractură de mandibulă,Durere intensă; dificultăți la vorbire,Imobilizare; analgezic,TA: 130/85 mmHg,Impact frontal
+5,Vaccinare antitetanos,Niciun simptom,Nicio resursă,TA: 125/85 mmHg,Prevenție în caz de răni minore
+2,Leziuni la nivelul spatelui,Dureri severe la spate; furnicături,Imobilizare; radiografie,TA: 130/85 mmHg,Accident frontal
+3,Luxație de deget,Durere; edem,Imobilizare temporară,TA: 125/85 mmHg,Cădere pe mână
+1,Tamponadă cardiacă,Hipotensiune; jugulare turgescente,Pericardiocenteză,TA: 80/50 mmHg; FC: 110 bpm,Accident toracic grav
+3,Contuzie la nivelul coapsei,Durere moderată; vânătăi,Monitorizare,TA: 120/85 mmHg,Cădere ușoară
+5,Consiliere pentru durere cronică,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Suport post-accident
+2,Fractură de claviculă,Durere intensă; deformare,Imobilizare; analgezic,TA: 125/85 mmHg,Accident frontal
+1,Stop respirator după accident,Apnee; cianoză,Resuscitare respiratorie,TA: N/A; FC: N/A,Accident grav
+4,Contuzie facială,Edem ușor; disconfort,Monitorizare,TA: 125/80 mmHg,Accident ușor
+1,Hemorragie craniană,Confuzie; cefalee severă,CT cerebral de urgență,TA: 80/60 mmHg; FC: 120 bpm,Traumatism cranian sever
+3,Luxație de gleznă,Durere intensă; edem,Imobilizare temporară,TA: 125/80 mmHg,Accident minor
+4,Durere la nivelul gâtului,Disconfort moderat; mobilitate redusă,Analgezic,TA: 130/85 mmHg,Cădere ușoară
+2,Fractură de bazin,Durere intensă; imobilitate,Stabilizare; analgezice,TA: 115/75 mmHg,Accident sever
+5,Eliberare certificat post-accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Necesitate administrativă
+3,Durere de spate,Disconfort ușor; mobilitate redusă,Monitorizare,TA: 120/80 mmHg,Impact minor
+2,Fractură de maxilar,Durere intensă; edem facial,Imobilizare; analgezic i.v.,TA: 125/85 mmHg,Accident frontal
+5,Consiliere pentru reabilitare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de recuperare post-accident
+3,Contuzie la abdomen,Durere ușoară; greață,Monitorizare,TA: 120/85 mmHg,Accident minor
+1,Hemotorax bilateral sever,Sângerare; durere toracică intensă,Decompresie toracică,TA: 85/60 mmHg; FC: 120 bpm,Impact frontal sever
+1,Accident la muncă - cădere de la înălțime,Cap spart; inconștiență,Monitorizare neurologică; CT cerebral,TA: N/A; FC: N/A,Leziuni craniene severe
+1,Accident cu echipament industrial,Strivit la nivelul toracelui; durere intensă,Drenaj toracic; monitorizare,TA: 90/50 mmHg; FC: 110 bpm,Presiune pe torace
+1,Tăietură adâncă la picior cu pierdere masivă de sânge,Hipotensiune; paloare,Transfuzie sanguină urgentă,TA: 65/40 mmHg; FC: 130 bpm,Tăietură severă la muncă
+2,Luxație de umăr la ridicarea greutăților,Durere intensă; incapacitate de mișcare,Imobilizare; analgezic,TA: 120/80 mmHg,Leziune la locul de muncă
+1,Electrocutare pe linia de producție,Inconștiență; arsuri la mâini,Monitorizare cardiacă; resuscitare,TA: N/A; FC: N/A,Arsuri severe
+3,Accident la muncă - contuzie lombară,Durere moderată; mobilitate redusă,Analgezic oral,TA: 120/80 mmHg,Leziune de spate
+2,Accident la muncă - fractură de antebraț,Durere intensă; deformare la nivelul brațului,Imobilizare; analgezic i.v.,TA: 125/80 mmHg,Incident pe linia de producție
+4,Tăietură superficială la deget,Durere ușoară; sângerare,Antiseptic și pansament,Semne vitale stabile,Tăietură minoră
+1,Cădere de pe scară - traumatism cranian,Inconștiență; pupile inegale,Monitorizare neurologică; CT cerebral,TA: N/A; FC: N/A,Accident sever
+2,Fractură de gleznă în urma căderii,Durere severă; edem,Imobilizare temporară,TA: 120/80 mmHg,Cădere la locul de muncă
+1,Inhalare de vapori toxici,Confuzie; dificultăți respiratorii,Administrare oxigen; monitorizare,TA: 110/70 mmHg,Intoxicație cu vapori toxici
+3,Accident la muncă - contuzie la genunchi,Durere moderată; vânătăi,Pansament simplu,TA: 125/80 mmHg,Impact minor la muncă
+1,Cădere de la înălțime - fracturi multiple,Durere intensă; inconștiență,Resuscitare; stabilizare,TA: 70/40 mmHg; FC: 120 bpm,Impact sever
+2,Accident la muncă - tăietură la față,Sângerare; edem,Monitorizare; sutură,TA: 130/85 mmHg,Leziune facială
+4,Entorsă de gleznă,Durere ușoară la mers,Imobilizare temporară,TA: 125/80 mmHg,Accident minor
+5,Consultație după incident de muncă,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Evaluare post-accident
+3,Tăietură superficială pe antebraț,Durere ușoară; sângerare,Pansament și antiseptic,TA: 130/80 mmHg,Accident minor la locul de muncă
+1,Prins într-un utilaj,Durere toracică severă; respirație superficială,Drenaj toracic; monitorizare,TA: 85/50 mmHg; FC: 120 bpm,Accident cu compresie toracică
+2,Leziune la spate prin cădere,Durere intensă; mobilitate redusă,Imobilizare; analgezice,TA: 130/80 mmHg,Leziune lombară
+1,Arsură chimică la față,Durere intensă; eritem și edem,Spălare cu soluție salină; monitorizare,TA: 110/70 mmHg,Accident chimic
+4,Tăietură minoră la mână,Durere ușoară; sângerare minimă,Antiseptic și pansament,Semne vitale stabile,Accident minor la muncă
+1,Leziune oculară prin particule metalice,Dureri intense; vedere încețoșată,Irigare oculară; consult oftalmologic,TA: 120/80 mmHg,Incident ocular
+2,Luxație de umăr în urma unei mișcări bruște,Durere intensă; mobilitate redusă,Imobilizare temporară,TA: 120/85 mmHg,Accident la locul de muncă
+3,Hernie lombară de la ridicarea greutăților,Durere moderată la nivelul spatelui,Analgezic și repaus,TA: 125/80 mmHg,Accident minor la muncă
+5,Consiliere pentru recuperare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Recuperare post-traumatică
+1,Tăietură profundă la braț cu sângerare,Durere intensă; pierdere de sânge,Control sângerare; sutură,TA: 90/60 mmHg; FC: 110 bpm,Leziune gravă la locul de muncă
+3,Contuzie la picior după cădere,Durere moderată; vânătăi,Pansament simplu,TA: 125/80 mmHg,Accident ușor
+1,Hematom cerebral prin lovire de utilaj,Confuzie; cefalee intensă,Monitorizare neurologică; CT cerebral,TA: 140/85 mmHg,Traumatism cranian sever
+2,Fractură de claviculă,Durere intensă; deformare,Imobilizare temporară,TA: 120/80 mmHg,Cădere la locul de muncă
+4,Luxație ușoară la deget,Durere ușoară; deformare minimă,Imobilizare temporară,Semne vitale stabile,Accident ușor
+1,Hemotorax după cădere de la înălțime,Sângerare toracică; dispnee,Drenaj toracic; monitorizare,TA: 90/60 mmHg; FC: 110 bpm,Accident sever la locul de muncă
+2,Tăietură la față în urma manipulării greșite,Durere; sângerare moderată,Pansament; analgezic,TA: 120/85 mmHg,Incident la locul de muncă
+5,Vaccinare antitetanos,Niciun simptom,Nicio resursă,TA: 130/85 mmHg,Prevenție în caz de tăieturi minore
+1,Prins de echipament industrial - fractură de pelvis,Durere severă; imobilitate totală,Stabilizare; analgezic i.v.,TA: 85/60 mmHg; FC: 120 bpm,Traumatism grav
+4,Contuzie la umăr,Durere ușoară; vânătăi,Analgezic oral,Semne vitale stabile,Accident minor la muncă
+3,Contuzie toracică prin lovire de cutie,Durere moderată la respirație,Pansament simplu,TA: 120/80 mmHg,Accident minor la locul de muncă
+1,Leziune gravă la cap - inconștiență,Cap spart; inconștient,Monitorizare neurologică; sutură,TA: N/A; FC: N/A,Accident sever la locul de muncă
+3,Contuzie la gleznă prin cădere,Durere moderată; edem,Monitorizare,TA: 125/80 mmHg,Accident ușor
+5,Control post-traumatic,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Evaluare de rutină
+2,Leziune de spate în urma ridicării greutăților,Dureri lombare severe; mobilitate redusă,Analgezic; repaus,TA: 125/80 mmHg,Leziune la locul de muncă
+1,Arsură severă la mâini,Durere intensă; arsuri de gradul II,Spălare; aplicare de pansament steril,TA: 110/70 mmHg,Accident cu arsuri chimice
+4,Entorsă de gleznă minoră,Durere ușoară la mers,Imobilizare temporară,TA: 125/80 mmHg,Cădere ușoară
+2,Tăietură adâncă la coapsă,Sângerare; durere intensă,Control sângerare; sutură,TA: 115/75 mmHg,Accident industrial
+3,Contuzie la nivelul toracelui,Dificultate la respirație; durere toracică,Pansament simplu,TA: 120/80 mmHg,Accident ușor
+5,Consiliere pentru sănătate la muncă,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Prevenție pentru accidente viitoare
+1,Leziune craniană severă prin lovire cu echipament,Inconștiență; hemoragie craniană,Monitorizare neurologică,TA: N/A; FC: N/A,Impact frontal puternic
+2,Fractură de coaste prin lovire,Durere toracică intensă; dificultăți respiratorii,Drenaj toracic; monitorizare,TA: 125/80 mmHg,Accident cu impact toracic
+1,Accident prin prindere într-un utilaj,Durere toracică severă; respirație dificilă,Drenaj toracic; resuscitare,TA: 80/50 mmHg; FC: 120 bpm,Leziune toracică gravă
+1,Cădere de la înălțime - traumatism cranian sever,Inconștiență; pupile inegale,Monitorizare neurologică; CT cerebral,TA: N/A; FC: N/A,Accident sever la locul de muncă
+1,Electrocutare la echipament electric,Inconștiență; arsuri la nivelul mâinilor,Resuscitare cardiopulmonară,TA: N/A; FC: N/A,Accident sever de electrocutare
+1,Tăietură profundă la antebraț,Sângerare abundentă; paloare,Transfuzie sanguină,TA: 75/45 mmHg; FC: 125 bpm,Accident grav cu pierdere de sânge
+2,Accident la muncă - fractură de umăr,Durere intensă; deformare vizibilă,Imobilizare; analgezic i.v.,TA: 120/80 mmHg,Incident la locul de muncă
+2,Arsură de gradul II la picior,Durere intensă; roșeață și blistere,Aplicație de pansament steril,TA: 125/85 mmHg,Contact cu substanțe fierbinți
+3,Contuzie lombară,Durere moderată; limitare la mișcare,Analgezic oral,TA: 125/80 mmHg,Leziune minoră la muncă
+3,Entorsă la gleznă,Durere moderată; edem,Imobilizare temporară,TA: 120/80 mmHg,Cădere accidentală
+4,Tăietură minoră la deget,Durere ușoară; sângerare ușoară,Pansament antiseptic,Semne vitale stabile,Accident ușor la locul de muncă
+4,Entorsă la încheietura mâinii,Durere ușoară; mobilitate limitată,Imobilizare temporară,Semne vitale stabile,Cădere ușoară
+1,Leziuni multiple prin cădere,Cap spart; inconștiență,Monitorizare neurologică,TA: N/A; FC: N/A,Accident sever
+2,Contuzie severă la spate,Durere intensă; dificultate de mișcare,Analgezic i.v.,TA: 130/85 mmHg,Accident prin cădere
+2,Fractură de bazin,Durere severă; imobilitate totală,Stabilizare; analgezice,TA: 115/75 mmHg,Accident la locul de muncă
+1,Hemotorax după cădere,Dispnee severă; lipsa murmurului respirator,Decompresie toracică,TA: 90/50 mmHg; FC: 110 bpm,Cădere de la înălțime
+2,Tăietură la nivelul feței,Sângerare moderată; edem,Monitorizare și sutură,TA: 120/80 mmHg,Accident la locul de muncă
+4,Contuzie la nivelul umărului,Durere ușoară la mișcare,Pansament simplu,Semne vitale stabile,Accident minor la locul de muncă
+1,Inhalare de substanțe toxice,Confuzie; dificultăți respiratorii,Administrare oxigen; monitorizare,TA: 110/70 mmHg,Accident chimic
+3,Hernie de disc,Durere lombară intensă; limitare de mișcare,Analgezic i.v.,TA: 120/80 mmHg,Accident prin ridicarea de greutăți
+5,Consiliere post-accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Recuperare post-traumatică
+1,Arsură chimică la mâini,Durere intensă; eritem,Spălare cu soluție salină; pansament,TA: 120/80 mmHg,Accident chimic
+4,Contuzie ușoară la picior,Disconfort la mers; edem,Pansament simplu,TA: 125/80 mmHg,Accident minor
+3,Leziune la genunchi,Durere moderată; limitare de mișcare,Pansament simplu,TA: 125/80 mmHg,Accident minor
+5,Consiliere pentru reintegrare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Recuperare post-accident
+1,Hematom cranian sever,Confuzie; amețeli intense,Monitorizare neurologică; CT cerebral,TA: 130/85 mmHg,Traumatism cranian grav
+2,Fractură de braț,Durere intensă; deformare,Imobilizare; analgezic i.v.,TA: 125/85 mmHg,Impact cu echipament
+1,Hemorragie internă după cădere,Durere abdominală; paloare,Transfuzie sanguină,TA: 70/40 mmHg; FC: 125 bpm,Impact sever
+2,Luxație de umăr,Durere intensă; deformare,Imobilizare,TA: 120/80 mmHg,Accident de muncă
+4,Entorsă de genunchi,Disconfort la mișcare,Pansament și analgezic,TA: 120/80 mmHg,Cădere la locul de muncă
+1,Traumatism cranian sever prin cădere,Inconștiență; sângerare la nivelul capului,Monitorizare neurologică,TA: N/A; FC: N/A,Cădere de la înălțime
+3,Tăietură la palma mâinii,Durere ușoară; sângerare,Pansament,TA: 120/80 mmHg,Accident ușor
+2,Fractură de deget,Durere intensă; edem,Imobilizare,TA: 125/85 mmHg,Accident la locul de muncă
+5,Consultație de rutină după accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Evaluare post-traumatică
+4,Tăietură minoră la față,Durere moderată; sângerare,Pansament și antiseptic,TA: 120/80 mmHg,Leziune facială minoră
+2,Fractură de antebraț,Durere intensă; deformare vizibilă,Imobilizare temporară,TA: 125/85 mmHg,Accident industrial
+3,Contuzie la umăr,Durere moderată; mobilitate redusă,Analgezic,TA: 120/80 mmHg,Impact cu utilaj
+4,Luxație la gleznă,Durere ușoară; edem,Pansament simplu,TA: 125/80 mmHg,Cădere la locul de muncă
+1,Electrocutare cu pierderea cunoștinței,Inconștiență; arsuri la nivelul mâinilor,Monitorizare cardiacă,TA: N/A; FC: N/A,Electrocutare severă
+5,Vaccinare antitetanos după accident,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Prevenție în caz de tăieturi minore
+3,Entorsă la gleznă,Durere moderată la mers,Imobilizare temporară,TA: 120/80 mmHg,Cădere ușoară
+1,Accident chimic - arsuri la față,Durere intensă; edem facial,Pansament steril,TA: 115/75 mmHg,Contact accidental cu substanțe toxice
+2,Leziune la nivelul gâtului,Durere intensă; rigiditate,Imobilizare temporară,TA: 125/80 mmHg,Accident prin cădere
+4,Tăietură minoră la deget,Durere ușoară; sângerare minimă,Antiseptic și pansament,Semne vitale stabile,Accident minor
+5,Consultație pentru reabilitare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Suport post-accident
+2,Arsură de gradul II pe braț,Durere intensă; blistere,Pansament steril,TA: 125/85 mmHg,Accident termic la muncă
+3,Contuzie la nivelul pieptului,Durere toracică ușoară; disconfort,Monitorizare,TA: 120/80 mmHg,Impact minor
+1,Traumă severă la cap - inconștiență,Cap spart; inconștiență,Monitorizare neurologică,TA: N/A; FC: N/A,Accident grav la muncă
+3,Contuzie la abdomen,Durere moderată; greață,Monitorizare,TA: 120/85 mmHg,Accident minor
+1,Hemotorax bilateral sever,Sângerare; durere toracică intensă,Decompresie toracică,TA: 85/60 mmHg; FC: 120 bpm,Impact sever
+4,Entorsă minoră la genunchi,Durere ușoară; mobilitate redusă,Imobilizare temporară,Semne vitale stabile,Accident ușor la muncă
+2,Fractură de maxilar,Durere intensă; edem facial,Imobilizare; analgezic i.v.,TA: 125/85 mmHg,Accident frontal
+5,Consiliere pentru reabilitare,Niciun simptom,Nicio resursă,TA: 120/80 mmHg,Dorința de recuperare post-accident
+3,Contuzie la abdomen,Durere ușoară; greață,Monitorizare,TA: 120/85 mmHg,Accident minor
+1,Hemotorax bilateral sever,Sângerare; durere toracică intensă,Decompresie toracică,TA: 85/60 mmHg; FC: 120 bpm,Impact frontal sever
+1,Cădere de la înălțime - traumatism cranian sever,Inconștiență; sângerare masivă,Monitorizare neurologică; CT cerebral,Accident grav la locul de muncă
+1,Electrocutare severă,Inconștiență; arsuri pe mâini și piept,Resuscitare; administrare de oxigen,Contact cu echipament electric
+2,Fractură de bazin prin cădere,Durere intensă; incapacitate de a se mișca,Imobilizare; analgezice,Accident industrial
+2,Luxație de umăr,Durere intensă; deformare vizibilă,Imobilizare; monitorizare,Impact la locul de muncă
+3,Contuzie la nivelul toracelui,Durere moderată; dificultate de respirație,Monitorizare și analgezic,Impact cu echipament greu
+3,Tăietură adâncă la coapsă,Sângerare moderată; edem,Control sângerare; pansament,Accident prin utilizarea echipamentelor de tăiere
+4,Contuzie la nivelul umărului,Durere ușoară; vânătaie,Pansament simplu,Accident minor
+4,Tăietură minoră la mână,Durere ușoară; sângerare,Pansament și antiseptic,Accident la locul de muncă
+1,Accident sever prin prindere într-un utilaj,Durere severă la nivelul toracelui și abdomenului,Intervenție chirurgicală de urgență,Incident grav în zona industrială
+2,Arsură chimică la față și gât,Durere intensă; erupții cutanate,Spălare cu soluție salină; pansament steril,Accident de expunere la substanțe chimice
+3,Luxație de gleznă,Culoare schimbată și edem,Imobilizare temporară,Accident la locul de muncă
+3,Entorsă la încheietura mâinii,Durere moderată; mobilitate redusă,Imobilizare și analgezic,Leziune minoră
+4,Contuzie la spate,Durere moderată,Odihnă și analgezic,Impact cu o suprafață dură
+2,Fractură de braț după cădere,Durere intensă; imobilitate la nivelul brațului,Imobilizare temporară,Accident prin alunecare
+1,Leziuni prin inhalare de substanțe toxice,Confuzie; dureri de cap severe,Administrare oxigen și monitorizare,Accident chimic grav
+3,Tăietură la picior,Durere moderată; sângerare,Curățare și sutură,Accident minor
+4,Vânătaie pe antebraț,Durere ușoară,Odihnă și pansament,Impact cu echipament
+1,Accident sever prin prindere de cabluri metalice,Leziuni la cap și trunchi,Monitorizare și evaluare neurologică,Accident industrial grav
+2,Fractură de tibie după impact sever,Durere severă; incapacitate de a se sprijini pe picior,Imobilizare și intervenție chirurgicală,Accident la locul de muncă
+4,Tăietură la deget,Durere și sângerare minimă,Pansament și antiseptic,Accident ușor în bucătărie industrială
+3,Leziune la nivelul gleznei,Culoare schimbată; durere,Imobilizare temporară,Accident prin cădere
+1,Leziune severă la coloana vertebrală după cădere,Incapacitate de mișcare,Stabilizare și monitorizare,Accident grav de la înălțime
+3,Contuzie la coapsă,Disconfort și durere la mers,Odihnă și analgezic,Accident ușor
+2,Tăietură adâncă la braț cu pierdere moderată de sânge,Durere intensă; dificultate de mișcare,Curățare și sutură,Accident prin prindere de echipament ascuțit
+1,Hematom intern prin compresie de utilaj,Durere severă în abdomen,Monitorizare intensivă și intervenție de urgență,Accident de muncă grav
+2,Luxație de genunchi,Durere intensă; deformare,Imobilizare și monitorizare,Accident prin alunecare
+4,Entorsă la degetul mare,Disconfort; edem ușor,Imobilizare temporară,Accident minor
+2,Fractură de femur,Incapacitate de a merge; durere severă,Imobilizare și analgezic,Accident prin prindere
+3,Tăietură la față,Durere și sângerare,Curățare și sutură,Accident cu obiect tăios
+1,Fractură complexă de bazin și coaste după cădere de la înălțime,Incapacitate de mișcare,Stabilizare și intervenție chirurgicală de urgență,Accident grav
+3,Contuzie la umăr,Durere moderată; limitare de mișcare,Imobilizare temporară,Accident de muncă
+4,Vânătaie pe antebraț,Durere ușoară; decolorare,Pansament,Impact minor cu echipament
+2,Fractură de gleznă prin cădere,Durere intensă; edem,Imobilizare,Accident minor
+3,Tăietură la nivelul gâtului,Durere și sângerare,Pansament și curățare,Accident prin contact cu obiecte ascuțite
+1,Accident prin prindere într-o presă industrială,Leziuni severe la nivelul toracelui,Monitorizare intensivă și stabilizare,Accident industrial sever
+2,Arsură de gradul II pe antebraț,Dureri intense și blistere,Pansament steril,Accident termic la locul de muncă
+3,Luxație de încheietură,Disconfort și limitare de mișcare,Imobilizare,Accident minor
+2,Fractură de umăr,Durere severă; mobilitate limitată,Imobilizare și monitorizare,Impact cu echipament
+1,Accident prin lovire puternică la cap,Inconștiență,Monitorizare neurologică și scanare CT,Accident grav
+4,Tăietură minoră la picior,Sângerare ușoară,Pansament,Accident minor
+2,Arsură chimică la față,Durere intensă; iritație,Pansament steril și monitorizare,Accident prin expunere la substanțe toxice
+1,Traumă craniană prin lovire cu echipament greu,Inconștiență,Monitorizare intensivă,Accident sever
+4,Vânătaie la coapsă,Durere la presiune,Odihnă și pansament,Accident minor
+3,Luxație de umăr,Disconfort la mișcare; edem,Imobilizare,Accident ușor
+3,Contuzie la piept,Durere la respirație,Odihnă și analgezic,Accident prin impact
+2,Leziune la spate prin ridicarea de greutăți,Durere intensă; limitare de mișcare,Odihnă și analgezic,Accident prin suprasolicitare
+4,Tăietură superficială la deget,Durere ușoară; sângerare,Pansament,Accident minor
+1,Leziuni multiple prin cădere de pe scară,Inconștiență și leziuni craniene,Monitorizare neurologică și scanare CT,Accident grav la înălțime
+3,Contuzie la nivelul abdomenului,Durere la palpare,Monitorizare,Accident prin impact
+1,Accident auto frontal,Traumă craniană severă; inconștiență,Monitorizare neurologică și scanare CT,Impact sever frontal
+1,Electrocutare industrială,Arsuri severe pe mâini și piept,Resuscitare și administrare oxigen,Contact direct cu sursă electrică
+2,Cădere de pe schelă,Durere severă la nivelul spatelui,Imobilizare și analgezice,Accident în construcții
+2,Accident rutier,Fractură de bazin și durere intensă,Monitorizare și stabilizare,Impact lateral
+3,Contuzie la picior,Edem și durere moderată,Imobilizare temporară,Accident ușor la locul de muncă
+3,Entorsă de gleznă,Durere și edem ușor,Imobilizare temporară,Accident în timpul activităților recreative
+1,Accident de muncă sever,Fractură de craniu; inconștiență,Intervenție chirurgicală de urgență,Impact frontal puternic
+1,Intoxicație cu monoxid de carbon,Confuzie și durere de cap,Administrare oxigen și monitorizare,Inhalare accidentală de gaz
+2,Luxație de umăr,Durere intensă; mobilitate redusă,Imobilizare și analgezice,Accident industrial
+2,Tăietură adâncă la coapsă,Sângerare abundentă și durere,Curățare și sutură,Contact cu un obiect ascuțit
+3,Bronșită acută febrilă,Tuse persistentă; febră,Antibiotice și odihnă,Infecție respiratorie
+4,Tăietură minoră la mână,Dureri ușoare și sângerare minimă,Pansament simplu,Accident ușor la locul de muncă
+5,Consultație pentru vaccinare,Niciun simptom,Nicio resursă necesară,Evaluare periodică
+1,Traumă severă prin cădere de la înălțime,Leziuni multiple; inconștiență,Intervenție chirurgicală și monitorizare intensivă,Accident grav în construcții
+2,Fractură de femur,Durere intensă; incapacitate de a merge,Imobilizare și analgezice,Accident de muncă
+3,Otită acută dureroasă,Durere intensă la nivelul urechii,Antibiotice și analgezice,Infecție ureche medie
+1,Septicemie,Febră mare și confuzie,Antibiotice intravenos și monitorizare intensivă,Infecție sistemică
+2,Luxație de genunchi,Durere intensă; deformare vizibilă,Imobilizare temporară,Impact în timpul activităților recreative
+3,Contuzie la piept,Durere moderată; dificultate de respirație,Monitorizare și analgezice,Accident auto ușor
+4,Erupție cutanată alergică,Mâncărime și roșeață,Antihistaminice,Reacție alergică la substanță necunoscută
+1,Accident industrial sever,Arsuri pe 40% din suprafața corpului,Administrare fluide și stabilizare,Contact cu substanțe chimice fierbinți
+2,Fractură de claviculă,Durere severă și incapacitate de mișcare,Imobilizare și analgezice,Accident rutier
+1,Stop cardiac,Apnee și lipsa pulsului,Resuscitare cardiopulmonară,Incident la locul de muncă
+3,Luxație de gleznă,Durere moderată și edem,Imobilizare temporară,Accident sportiv
+4,Sinuzită cronică,Durere facială și congestie nazală,Antibiotice și decongestionante,Infecție sezonieră
+5,Consultație pentru sănătate mentală,Niciun simptom,Nicio resursă,Consiliere preventivă
+1,Accident auto - traumă severă,Fracturi multiple și sângerare abundentă,Intervenție chirurgicală de urgență,Accident rutier major
+2,Tăietură adâncă la degetul mare,Sângerare și durere intensă,Pansament steril și monitorizare,Accident în bucătărie industrială
+3,Bronșită cronică,Tuse persistentă și respirație îngreunată,Antibiotice și bronhodilatatoare,Pacient fumător
+1,Sepsis sever,Febră mare; confuzie,Antibiotice intravenos și monitorizare intensivă,Infecție bacteriană
+2,Contuzie abdominală,Durere și greață,Monitorizare,Accident prin impact frontal
+4,Vânătaie la genunchi,Durere ușoară și edem,Pansament și analgezice,Accident minor
+3,Otrăvire accidentală,Durere abdominală și greață,Monitorizare și analize toxice,Ingerare substanță necunoscută
+2,Colică renală,Durere intensă la nivelul spatelui,Analgezice intravenos și monitorizare,Posibilă litiază renală
+1,Insuficiență respiratorie acută,Cianoză și respirație agonizantă,Ventilație mecanică și intubație,Pacient în stare critică
+4,Durere minoră de umăr,Disconfort și mobilitate ușor redusă,Analgezice orale,Accident la locul de muncă
+3,Erupție cutanată minoră,Mâncărime și iritație,Antihistaminice,Reacție la substanță necunoscută
+5,Consultație pentru examen medical,Niciun simptom,Nicio resursă,Verificare periodică
+1,Traumă craniană severă,Inconștiență; pupile inegale,Monitorizare neurologică și scanare CT,Accident grav la locul de muncă
+2,Tăietură la față,Sângerare moderată; edem,Pansament și analgezice,Accident industrial
+3,Luxație de umăr,Durere intensă; deformare vizibilă,Imobilizare temporară,Impact în timpul activităților recreative
+4,Tăietură superficială la braț,Sângerare minimă,Pansament simplu,Accident ușor
+1,Criză hipertensivă severă,Durere de cap intensă și vedere încețoșată,Administrare de nitroglicerină,Pacient hipertensiv cunoscut
+2,Hernie lombară,Durere intensă la nivelul spatelui,Imobilizare și monitorizare,Accident de muncă
+3,Entorsă la încheietura mâinii,Disconfort și mobilitate limitată,Imobilizare temporară,Accident sportiv
+4,Erupție cutanată la nivelul feței,Mâncărime și roșeață,Antihistaminice locale,Reacție la substanță necunoscută
+5,Consiliere pentru dieta sănătoasă,Niciun simptom,Nicio resursă,Consultație de rutină
+1,Șoc septic,Febră mare și hipotensiune,Antibiotice intravenos și monitorizare,Infecție sistemică gravă
+2,Accident la locul de muncă - cădere,Fractură de tibie și durere intensă,Imobilizare și analgezice,Impact sever
+3,Durere de gât moderată,Durere și disconfort,Analgezice orale,Infecție de sezon
+4,Otită externă,Durere și prurit la nivelul urechii,Antibiotice locale,Accident minor
+1,Intoxicație cu substanțe toxice,Confuzie și amețeli,Administrare oxigen și monitorizare,Contact cu substanțe periculoase
+2,Arsură de gradul II la antebraț,Dureri intense și blistere,Pansament steril,Accident termic la locul de muncă
+3,Luxație de umăr,Durere intensă; mobilitate redusă,Imobilizare temporară,Impact sportiv
+2,Contuzie la abdomen,Durere și greață,Monitorizare,Accident prin impact frontal
+3,Erupție alergică,Mâncărime și umflare,Antihistaminice orale,Reacție alergică
+4,Tăietură minoră la deget,Sângerare minimă și durere,Pansament și antiseptic,Accident minor
+1,Criză anafilactică severă,Edem facial și respirație dificilă,Administrare adrenalină și intubație,Reacție alergică severă
+3,Contuzie la piept,Durere moderată la respirație,Analgezice,Impact minor la locul de muncă
+5,Vaccinare antigripală,Niciun simptom,Nicio resursă,Prevenție sezonieră
+1,Accident auto frontal - fracturi multiple,Durere intensă și inconștiență,Intervenție chirurgicală și stabilizare,Accident sever
+2,Cădere de pe scară,Fractură de femur și durere intensă,Imobilizare și analgezice,Accident de muncă
+3,Durere toracică nespecifică,Durere ușoară la respirație,Monitorizare,Consultație preventivă
+4,Tăietură minoră la deget,Sângerare minimă și durere,Pansament și antiseptic,Accident minor
+1,Traumă craniană severă,Inconștiență și sângerare abundentă,Monitorizare neurologică și scanare CT,Accident industrial grav
+3,Entorsă de gleznă,Durere și edem ușor,Imobilizare temporară,Impact sportiv minor
+2,Tăietură profundă la față,Sângerare abundentă și durere intensă,Pansament și sutură,Accident industrial
+3,Bronșită acută,Tuse persistentă și febră scăzută,Antibiotice,Infecție respiratorie
+4,Infecție minoră la nivelul pielii,Erupție ușor dureroasă,Tratament topic,Reacție la substanță necunoscută
+1,Traumă severă prin cădere de la înălțime,Fracturi multiple și inconștiență,Monitorizare intensivă și intervenție chirurgicală,Accident grav
+2,Luxație de umăr,Durere intensă și mobilitate limitată,Imobilizare temporară,Impact minor
+3,Durere lombară intensă,Disconfort sever și rigiditate,Analgezice,Accident la locul de muncă
+4,Otită externă,Durere și prurit,Antibiotic local,Infecție minoră
+5,Control pentru tensiune arterială,Niciun simptom,Nicio resursă,Evaluare periodică
+1,Accident auto frontal,Traumă craniană severă; inconștiență; fractură femurală,Monitorizare neurologică; resuscitare și scanare CT,Impact frontal puternic
+1,Intoxicație cu substanțe chimice,Respirație îngreunată; confuzie; iritație la ochi,Administrare oxigen; spălare oculară,Accident industrial
+2,Cădere de la înălțime,Durere intensă la nivelul coloanei; incapacitate de mișcare,Imobilizare completă și monitorizare,Accident pe schelă
+3,Entorsă de gleznă,Durere și edem; dificultate la mers,Imobilizare și analgezice,Accident sportiv
+2,Arsură de gradul II,Blistere și durere intensă pe mână,Pansament steril și analgezice,Accident de muncă
+4,Contuzie la genunchi,Durere ușoară; edem mic,Pansament și analgezice,Accident minor la locul de muncă
+1,Septicemie,Febră ridicată; confuzie; scădere tensiune,Administrare antibiotice și fluide,Infecție sistemică severă
+2,Fractură de antebraț,Durere intensă; deformare evidentă,Imobilizare și analgezice,Accident rutier
+3,Infecție la nivelul pielii,Roșeață și durere localizată,Antibiotice locale,Leziune superficială
+1,Șoc anafilactic sever,Edem facial; dificultate de respirație,Administrare adrenalină; intubație,Reacție la alimente
+2,Tăietură adâncă la coapsă,Sângerare abundentă; durere intensă,Pansament și monitorizare,Contact cu obiect ascuțit la locul de muncă
+3,Luxație de umăr,Durere și mobilitate limitată,Imobilizare temporară,Accident sportiv
+1,Criză hipertensivă severă,Durere de cap intensă; confuzie,Administrare medicamente pentru tensiune,Pacient cu istoric de hipertensiune
+1,Insuficiență respiratorie severă,Respirație agonizantă; cianoză,Ventilație mecanică și intubație,Pacient BPOC
+2,Accident de motocicletă,Fractură deschisă de tibie și peroneu; sângerare,Stabilizare și transfer la spital,Accident rutier
+3,Fractură de metatars,Dureri și edem; dificultate la mers,Imobilizare și monitorizare,Accident la locul de muncă
+4,Dermatită alergică,Roșeață și mâncărime,Antihistaminice locale,Reacție la substanță cosmetică
+5,Consultație generală,Niciun simptom,Nicio resursă necesară,Verificare de rutină
+1,Traumă abdominală severă,Dureri intense; tensiune arterială scăzută,Scanare abdominală; administrare de fluide,Accident de muncă
+2,Luxație de genunchi,Durere intensă și mobilitate redusă,Imobilizare temporară,Impact în timpul activităților recreative
+3,Sinuzită acută,Durere facială; congestie nazală,Antibiotice,Infecție de sezon
+4,Tăietură superficială,Sângerare minoră; durere ușoară,Pansament simplu,Accident casnic
+5,Consiliere dietetică,Niciun simptom,Nicio resursă,Consultație pentru nutriție
+1,Intoxicație cu monoxid de carbon,Confuzie; durere de cap; amețeli,Administrare oxigen și monitorizare,Expunere accidentală
+2,Cădere de pe scară,Durere de spate; edem,Imobilizare temporară și analgezice,Accident casnic
+3,Infecție urinara,Frecvență crescută; disconfort,Antibiotice și analize de urină,Infecție de tract urinar
+4,Vânătaie la mână,Edem și durere ușoară,Analgezice,Impact minor
+1,Accident industrial,Fractură deschisă; inconștiență,Intervenție chirurgicală de urgență,Accident grav
+3,Infecție oculară,Durere oculară; roșeață,Picături antibiotice,Posibilă conjunctivită
+5,Vaccinare de rutină,Niciun simptom,Nicio resursă,Vaccinare antigripală
+1,Stop cardiac,Apnee și lipsa pulsului,Resuscitare cardiopulmonară și defibrilare,Colaps subit
+2,Fractură de claviculă,Durere intensă; deformare la umăr,Imobilizare,Accident sportiv
+3,Luxație de cot,Durere intensă și mobilitate limitată,Imobilizare temporară,Accident sportiv
+4,Tăietură minoră la deget,Sângerare minimă; disconfort,Pansament și antiseptic,Accident minor
+1,Criză anafilactică severă,Edem facial; dispnee,Administrare adrenalină i.v.,Reacție la medicament
+2,Durere abdominală acută,Durere intensă în partea dreaptă,Ecografie abdominală,Posibilă apendicită
+3,Entorsă de gleznă,Durere și edem,Imobilizare,Accident în activități sportive
+4,Arsură superficială,Dureri minore,Pansament și antiseptic,Accident casnic
+5,Consultație psihologică,Niciun simptom,Nicio resursă,Consiliere
+1,Traumă craniană severă,Inconștiență; sângerare,Scanare CT și monitorizare,Accident de muncă
+2,Luxație de umăr,Durere intensă; incapacitate de mișcare,Imobilizare,Accident sportiv
+3,Gastroenterită acută,Greață; vărsături,Fluide i.v. și monitorizare,Posibilă intoxicație alimentară
+4,Durere de gât,Disconfort la înghițire,Analgezice,Infecție respiratorie
+5,Certificat medical pentru muncă,Niciun simptom,Nicio resursă,Evaluare de rutină
+1,Șoc septic,Febră; confuzie; tensiune scăzută,Antibiotice i.v. și stabilizare,Infecție gravă
+2,Cădere pe spate,Durere lombară severă; greață,Monitorizare,Impact sever
+3,Durere toracică,Disconfort la respirație,Monitorizare,Consultație preventivă
+4,Tăietură minoră la deget,Dureri ușoare și sângerare minimă,Pansament simplu,Accident ușor
+1,Stop respirator,Apnee; lipsa pulsului,Resuscitare,Pacient cunoscut cu probleme respiratorii
+3,Fractură de deget,Dureri și edem la nivelul degetului,Imobilizare,Accident casnic
+2,Criză de astm sever,Wheezing și dificultăți respiratorii,Bronhodilatatoare,Pacient cu istoric de astm
+1,Insuficiență respiratorie acută,Cianoză și respirație rapidă,Ventilație mecanică,Pacient grav
+4,Infecție cutanată minoră,Durere localizată,Antibiotic local,Leziune minoră
+1,Traumă toracică severă,Dispnee; durere toracică intensă,Drenaj toracic,Accident de muncă
+2,Tăietură adâncă la picior,Sângerare; durere,Curățare și sutură,Accident cu obiect ascuțit
+3,Durere de spate moderată,Disconfort,Analgezice,Accident casnic
+4,Sinuzită cronică,Congestie nazală,Antibiotice și decongestionante,Infecție sezonieră
+5,Consultație pentru tensiune,Niciun simptom,Nicio resursă,Consultație preventivă
+1,Electrocutare industrială,Arsuri severe la mâini; dureri intense,Resuscitare și administrare oxigen,Contact direct cu cablu electric
+2,Cădere de la înălțime,Fractură de vertebre și durere severă,Imobilizare și transport de urgență,Accident grav
+3,Luxație de gleznă,Dureri și edem,Imobilizare,Accident sportiv
+4,Vânătaie la mână,Dureri ușoare și edem,Analgezice,Impact minor
+1,Accident auto,Traumă abdominală; sângerare internă,Intervenție chirurgicală,Accident rutier
+2,Durere toracică nespecifică,Disconfort la nivelul pieptului,Monitorizare,Consultație preventivă
+3,Greață și vărsături,Dezhidratare,Fluide i.v.,Posibilă intoxicație alimentară
+4,Tăietură la picior,Sângerare ușoară; durere,Pansament și antiseptic,Accident minor
+1,Criză convulsivă,Convulsii; pierdere a cunoștinței,Anticonvulsivante,Pacient cunoscut cu epilepsie
+2,Arsură de gradul II,Dureri și blistere pe mână,Pansament steril și analgezice,Accident de muncă
+3,Luxație de umăr,Durere intensă,Imobilizare,Accident sportiv
+4,Durere de spate,Disconfort lombar,Analgezice,Impact minor
+5,Certificat medical pentru muncă,Niciun simptom,Nicio resursă necesară,Consultație de rutină
+1,Intoxicație cu gaz,Respirație îngreunată; confuzie,Administrare oxigen și monitorizare,Expunere accidentală
+2,Cădere pe scări,Durere lombară; dificultate de mișcare,Imobilizare și monitorizare,Accident casnic
+3,Gastroenterită,Greață; diaree,Fluide i.v.,Infecție alimentară
+4,Durere minoră la mână,Disconfort,Pansament,Accident ușor
+5,Vaccinare,Niciun simptom,Nicio resursă,Vaccinare de rutină
+1,Accident rutier - coliziune frontală,Traumă craniană; pierderea cunoștinței; fractură deschisă,Resuscitare; stabilizare și scanare CT,Impact frontal puternic
+2,Bătaie - lovitură la cap,Confuzie; amețeli; sângerare craniană,Pansament și monitorizare neurologică,Incident agresiv
+3,Arsură de gradul II pe antebraț,Durere intensă; blistere,Pansament steril și analgezice,Contact cu lichid fierbinte
+4,Contuzie toracică,Dificultate respiratorie ușoară,Analgezice,Accident la locul de muncă
+1,Incendiu - intoxicație cu fum,Dificultăți de respirație; cianoză,Administrare oxigen; ventilație mecanică,Expunere prelungită la fum
+2,Cădere de la etajul doi,Fractură de femur; dureri severe,Imobilizare și transport la spital,Accident de muncă
+3,Tăietură la nivelul antebrațului,Sângerare moderată; durere,Pansament și sutură,Accident industrial
+1,Accident rutier - pieton lovit,Traumă craniană; fracturi multiple,Monitorizare intensivă și scanare CT,Accident auto sever
+4,Tăietură superficială pe deget,Sângerare minoră; durere,Pansament simplu,Accident casnic
+2,Fractură de claviculă,Durere intensă; umăr deformare,Imobilizare și analgezice,Accident de muncă
+1,Intoxicație cu fum într-un incendiu,Dificultăți de respirație; confuzie,Administrare oxigen și suport ventilator,Incendiu în clădire
+3,Entorsă de gleznă,Durere moderată; edem ușor,Imobilizare temporară și analgezice,Accident sportiv
+1,Arsură de gradul III - braț drept,Piele carbonizată; durere extremă,Pansament steril și analgezie intensă,Accident industrial
+2,Bătaie - lovit cu un obiect,Traumă craniană; confuzie,Monitorizare și analgezice,Incident agresiv
+4,Contuzie ușoară la genunchi,Dureri minore la mers,Analgezice,Accident la locul de muncă
+1,Electrocutare accidentală,Arsuri la nivelul mâinilor; pierderea cunoștinței,Monitorizare cardiacă și resuscitare,Contact direct cu fire electrice
+2,Cădere pe scări,Durere lombară intensă; dificultăți la mers,Imobilizare și monitorizare,Accident casnic
+3,Arsură superficială pe față,Durere și roșeață,Pansament steril,Contact cu lichid fierbinte
+1,Traumă prin explozie,Fracturi multiple; inconștiență,Resuscitare și stabilizare,Explozie în zonă industrială
+2,Accident rutier - impact lateral,Durere toracică; dificultăți la respirație,Monitorizare și radiografie,Accident auto
+3,Luxație de umăr,Durere intensă; mobilitate limitată,Imobilizare temporară,Activitate sportivă
+4,Tăietură minoră la mână,Sângerare ușoară; durere,Pansament și antiseptic,Accident casnic
+1,Inhalare de substanțe toxice,Dificultate la respirație; amețeli,Administrare oxigen și spălare oculară,Contact accidental cu substanțe chimice
+2,Bătaie - lovitură la abdomen,Durere severă; greață,Monitorizare și analgezie,Conflict agresiv
+3,Arsură de gradul II la gât,Durere și blistere,Pansament steril și analgezice,Accident industrial
+4,Vânătaie la braț,Dureri ușoare și edem,Analgezice și monitorizare,Impact minor
+1,Coliziune auto - traumatism toracic,Dificultăți de respirație; durere intensă la nivelul toracelui,Drenaj toracic,Accident auto sever
+2,Accident de muncă - fractură deschisă,Dureri intense și sângerare,Imobilizare și transport la spital,Accident industrial
+3,Contuzie minoră la cap,Durere ușoară și amețeli,Analgezice și monitorizare,Impact în timpul lucrului
+1,Accident cu motocicleta,Fractură deschisă la picior; durere extremă,Imobilizare și analgezice,Accident rutier
+2,Bătaie - lovitură la piept,Dificultate la respirație și durere,Monitorizare,Incident agresiv
+3,Arsură ușoară pe umăr,Roșeață și durere,Pansament și cremă dezinfectantă,Accident casnic
+4,Tăietură la degetul mare,Sângerare ușoară și durere,Pansament simplu,Accident casnic
+1,Traumă severă prin cădere de la înălțime,Fracturi multiple; inconștiență,Stabilizare și intervenție chirurgicală,Accident grav la muncă
+2,Durere abdominală după lovitură,Dureri și greață,Monitorizare,Incident agresiv
+3,Entorsă de gleznă,Dureri și edem,Imobilizare și analgezice,Accident sportiv
+4,Arsură superficială la nivelul mâinii,Dureri ușoare și roșeață,Cremă antiseptică,Accident casnic
+1,Traumatism cranian sever în urma unui accident rutier,Inconștiență; pierdere a cunoștinței,Scanare CT și monitorizare intensivă,Impact frontal
+2,Accident de muncă - cădere de pe scară,Durere intensă la spate; greață,Imobilizare temporară,Accident grav la locul de muncă
+3,Luxație de cot,Durere intensă și mobilitate limitată,Imobilizare temporară,Accident la locul de muncă
+4,Durere minoră la umăr,Dureri la mișcare,Analgezice,Accident casnic
+1,Electrocutare industrială,Arsuri la mâini și piept; inconștiență,Monitorizare cardiacă și resuscitare,Accident la locul de muncă
+2,Bătaie - traumatism cranian,Dureri la cap și amețeli,Monitorizare neurologică,Incident agresiv
+3,Arsură de gradul II pe braț,Blistere și durere intensă,Pansament steril și analgezice,Accident de muncă
+4,Vânătaie la picior,Edem și dureri ușoare,Analgezice și repaus,Impact minor
+1,Accident rutier - coliziune cu motocicletă,Fractură la nivelul femurului și traumatism cranian,Monitorizare și stabilizare,Accident grav
+2,Durere abdominală post impact,Durere severă și greață,Monitorizare și analgezice,Accident în timpul activităților recreative
+3,Contuzie ușoară la cot,Durere și edem moderat,Imobilizare temporară,Impact la locul de muncă
+4,Arsură ușoară pe antebraț,Roșeață și mâncărime,Pansament și cremă antiseptică,Contact cu lichid fierbinte
+1,Accident cu ATV-ul - fracturi multiple,Fractură de coaste; dureri severe,Imobilizare și radiografie,Accident grav în afara drumului
+2,Accident de muncă - fractură de mână,Deformare și durere,Imobilizare,Impact în timpul muncii
+3,Entorsă de genunchi,Durere moderată; mobilitate redusă,Imobilizare temporară și analgezice,Accident sportiv
+4,Tăietură ușoară pe degetul mare,Sângerare minoră,Pansament simplu,Accident casnic
+1,Inhalare de fum într-un incendiu,Dificultăți de respirație și amețeli,Administrare oxigen și suport ventilator,Incendiu într-o clădire
+2,Bătaie - lovitură în spate,Durere și dificultate la mișcare,Monitorizare,Incident agresiv
+3,Contuzie la nivelul umărului,Dureri moderate și edem,Analgezice și repaus,Impact minor
+4,Arsură de gradul I pe mâini,Roșeață ușoară și durere,Pansament și antiseptic,Contact cu obiect fierbinte
+1,Accident de muncă cu strivire la mâini,Durere intensă și sângerare,Intervenție chirurgicală,Accident grav la locul de muncă
+2,Cădere pe gheață,Durere lombară și edem,Monitorizare și analgezice,Accident casnic
+3,Luxație de gleznă,Durere moderată și edem,Imobilizare temporară,Accident sportiv
+4,Vânătaie la braț,Edem ușor și durere minoră,Analgezice,Impact minor
+1,Accident de muncă - fractură deschisă la picior,Durere severă și deformare,Imobilizare și transport la spital,Accident industrial
+2,Coliziune auto - impact lateral,Durere toracică și amețeli,Monitorizare și radiografie,Accident rutier
+3,Greață și vărsături după accident,Dificultăți la mișcare și disconfort abdominal,Monitorizare,Impact moderat
+4,Tăietură superficială la picior,Sângerare minoră și disconfort,Pansament simplu,Accident casnic
+1,Arsură de gradul III pe braț și față,Leziuni severe; durere extremă,Pansament steril și monitorizare intensivă,Contact direct cu foc deschis
+2,Accident de muncă - cădere de la înălțime,Durere toracică și dificultăți de respirație,Monitorizare și analgezice,Accident grav la locul de muncă
+3,Arsură ușoară pe gât,Roșeață și senzație de arsură,Pansament și analgezice,Contact accidental cu obiect fierbinte
+4,Entorsă de gleznă,Dureri la mers,Imobilizare temporară și repaus,Impact minor
+1,Accident rutier - coliziune frontală,Fractură de craniu; inconștiență,Resuscitare și scanare CT,Accident grav auto
+2,Fractură de braț în urma unei căderi,Dureri intense; deformare la braț,Imobilizare și analgezice,Accident casnic
+3,Contuzie abdominală,Dureri moderate la palpare,Monitorizare și analgezice,Accident casnic
+4,Tăietură la deget,Sângerare ușoară; durere,Pansament simplu,Accident minor în bucătărie
+2,Bătaie - lovitură la cap,Confuzie și amețeli,Monitorizare neurologică,Incident agresiv
+1,Traumatism toracic sever,Dificultăți de respirație; fractură de coaste,Drenaj toracic,Accident rutier
+3,Arsură de gradul II pe antebraț,Durere intensă; blistere,Pansament steril și analgezice,Accident casnic
+1,Intoxicație cu fum - incendiu casnic,Dificultăți de respirație; tuse persistentă,Administrare oxigen și suport ventilator,Incendiu în locuință
+2,Durere toracică nespecifică,Disconfort la nivelul pieptului,Monitorizare,Consultație preventivă
+3,Luxație de gleznă,Dureri și edem,Imobilizare temporară,Accident sportiv
+1,Accident rutier - lovituri severe,Traumă craniană; pierderea cunoștinței,Resuscitare și stabilizare,Impact frontal sever
+4,Vânătaie la braț,Dureri ușoare și edem,Analgezice și repaus,Impact minor la locul de muncă
+1,Electrocutare în mediu industrial,Arsuri la mâini; pierderea cunoștinței,Monitorizare cardiacă și resuscitare,Contact accidental cu fire electrice
+2,Cădere de la înălțime,Fractură de femur și durere intensă,Imobilizare și transport de urgență,Accident grav la locul de muncă
+3,Arsură de gradul II pe picior,Durere intensă și blistere,Pansament steril și analgezice,Accident casnic
+1,Accident rutier - motocicletă,Fractură de femur și traumatism cranian,Stabilizare și monitorizare,Accident grav rutier
+4,Tăietură superficială la nivelul palmei,Sângerare ușoară; disconfort,Pansament,Accident minor
+2,Bătaie - traumatism cranian,Durere de cap și amețeli,Monitorizare neurologică și analgezice,Incident agresiv
+1,Intoxicație cu fum într-un incendiu industrial,Dificultăți severe de respirație; confuzie,Administrare oxigen și suport ventilator,Incendiu în clădire industrială
+3,Entorsă de gleznă,Dureri moderate; edem,Imobilizare temporară și analgezice,Accident sportiv
+1,Accident de muncă - fractură deschisă,Dureri intense și sângerare abundentă,Imobilizare și transport la spital,Accident industrial grav
+4,Tăietură minoră la mână,Sângerare ușoară și durere,Pansament simplu și antiseptic,Accident casnic
+1,Inhalare de gaze toxice,Dificultăți respiratorii și amețeli,Administrare oxigen și monitorizare,Expunere accidentală la vapori toxici
+2,Cădere pe scări,Durere intensă la nivelul spatelui,Monitorizare și analgezice,Accident casnic
+3,Arsură superficială pe față,Roșeață și durere la atingere,Pansament steril și cremă antiseptică,Contact accidental cu obiect fierbinte
+1,Fractură deschisă de tibie,Durere extremă și deformare,Imobilizare și transport la spital,Accident de muncă
+2,Durere abdominală severă după impact,Durere intensă și greață,Monitorizare și analgezice,Accident sportiv
+3,Contuzie ușoară la cot,Durere și edem moderat,Imobilizare temporară,Impact în timpul lucrului
+1,Accident rutier grav,Traumă craniană severă și inconștiență,Resuscitare și stabilizare,Accident auto
+2,Fractură de claviculă,Dureri intense și deformare la umăr,Imobilizare și analgezice,Accident casnic
+3,Luxație de umăr,Durere intensă și mobilitate limitată,Imobilizare temporară,Accident sportiv
+4,Tăietură la degetul mare,Sângerare ușoară și durere,Pansament simplu și antiseptic,Accident casnic
+1,Coliziune auto - accident frontal,Traumatism toracic și durere intensă,Resuscitare și stabilizare,Accident rutier grav
+2,Durere abdominală după lovitură,Dureri și greață,Monitorizare și analgezice,Incident agresiv
+3,Entorsă de genunchi,Durere moderată; mobilitate limitată,Imobilizare temporară și analgezice,Accident sportiv
+4,Arsură superficială la nivelul piciorului,Dureri ușoare și roșeață,Cremă antiseptică,Accident casnic
+1,Traumatism cranian sever,Inconștiență și traumă craniană,Scanare CT și monitorizare intensivă,Impact sever
+2,Bătaie - lovitură în abdomen,Durere severă și greață,Monitorizare și analgezice,Incident agresiv
+3,Contuzie ușoară la nivelul cotului,Durere și edem,Pansament simplu și repaus,Accident casnic
+4,Arsură de gradul I pe mâini,Roșeață și senzație de arsură,Pansament și cremă antiseptică,Contact cu lichid fierbinte
+1,Accident de muncă - strivire la mâini,Durere intensă și sângerare,Intervenție chirurgicală,Accident grav la locul de muncă
+2,Cădere de pe scări,Durere lombară și dificultate la mișcare,Monitorizare și analgezice,Accident casnic
+3,Luxație de gleznă,Durere moderată și edem,Imobilizare temporară,Accident sportiv
+4,Vânătaie la picior,Edem și durere minoră,Analgezice și repaus,Impact minor
+1,Accident de muncă - fractură deschisă la picior,Durere severă și sângerare,Imobilizare și transport de urgență,Accident industrial
+2,Coliziune auto - impact lateral,Durere toracică și amețeli,Monitorizare și radiografie,Accident auto
+3,Greață și vărsături după accident,Dificultăți la mișcare și disconfort abdominal,Monitorizare și rehidratare,Impact moderat
+4,Tăietură ușoară la nivelul mâinii,Sângerare minoră și disconfort,Pansament simplu și antiseptic,Accident casnic
+1,Arsură severă la nivelul brațului și pieptului,Leziuni cutanate extinse și durere,Pansament steril și analgezice,Accident industrial
+2,Fractură de antebraț în urma unei căderi,Dureri intense și deformare,Imobilizare temporară și analgezice,Accident casnic
+3,Arsură de gradul II la nivelul feței,Blistere și durere intensă,Pansament steril și analgezice,Accident casnic
+4,Entorsă ușoară la gleznă,Dureri moderate și edem,Pansament și repaus,Impact minor
+1,Intoxicație cu monoxid de carbon,Dificultăți de respirație și confuzie,Administrare oxigen și monitorizare,Expunere accidentală
+2,Cădere de la o înălțime joasă,Fractură de tibie și durere intensă,Imobilizare temporară și analgezice,Accident de muncă
+3,Contuzie la nivelul brațului,Dureri moderate și edem,Analgezice și pansament,Impact minor
+4,Tăietură la nivelul palmei,Sângerare ușoară și durere,Pansament simplu și antiseptic,Accident casnic
+1,Arsură de gradul III la nivelul feței și pieptului,Durere severă și șoc,Pansament steril și analgezice,Incendiu industrial
+2,Accident de muncă - cădere de la înălțime,Fractură de coloană și durere intensă,Imobilizare și transport de urgență,Accident grav
+3,Luxație de cot,Durere și edem,Imobilizare temporară,Impact în timpul lucrului
+4,Contuzie minoră la gleznă,Durere ușoară la mișcare,Pansament și analgezice,Impact minor
+1,Electrocutare accidentală în locuință,Arsuri la nivelul mâinii; pierderea cunoștinței,Resuscitare și stabilizare,Contact cu fire electrice neizolate
+2,Bătaie - fractură de nas,Durere intensă și sângerare,Imobilizare și transport,Incident agresiv
+3,Arsură ușoară pe gât,Roșeață și senzație de arsură,Cremă antiseptică,Contact cu abur fierbinte
+4,Tăietură la nivelul degetului,Sângerare minoră,Pansament simplu și antiseptic,Accident casnic
+1,Coliziune frontală auto,Fractură de craniu; inconștiență,Resuscitare și CT cranian,Accident grav auto
+1,Accident industrial cu strivire la picior,Dureri intense și sângerare,Imobilizare și transport de urgență,Accident la locul de muncă
+2,Cădere de la scară înaltă,Dureri severe la spate; dificultate la mișcare,Imobilizare și analgezice,Accident de muncă
+3,Arsură de gradul II pe antebraț,Durere intensă și blistere,Pansament steril și cremă antiseptică,Accident casnic
+4,Tăietură ușoară la picior,Sângerare minoră; disconfort,Pansament și antiseptic,Accident în bucătărie
+2,Bătaie - lovitură la cap,Confuzie și amețeli,Monitorizare neurologică,Incident agresiv
+1,Traumatism toracic sever,Respirație dificilă; fractură de coaste,Drenaj toracic,Accident auto
+3,Entorsă de gleznă,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+1,Intoxicație cu monoxid de carbon,Dificultăți severe de respirație,Administrare oxigen și monitorizare,Expunere accidentală la monoxid
+2,Durere abdominală severă după lovitură,Dureri abdominale; amețeli,Monitorizare și analgezice,Impact în timpul activităților sportive
+3,Luxație de umăr,Durere și mobilitate limitată,Imobilizare temporară și analgezice,Accident la antrenament
+4,Arsură superficială la mâini,Roșeață și durere ușoară,Pansament și cremă antiseptică,Contact cu apă fierbinte
+1,Fractură deschisă de femur în urma unui impact,Durere intensă și deformare,Imobilizare și transport la spital,Accident rutier grav
+2,Contuzie toracică după cădere,Durere la nivelul coastelor,Monitorizare și radiografie,Accident casnic
+3,Greață și amețeli după impact,Disconfort și senzație de rău general,Monitorizare,Accident minor
+4,Vânătaie la cot,Dureri minore; edem,Analgezice,Impact minor în casă
+1,Accident de muncă cu electrocutare,Arsuri severe la mâini și piept,Resuscitare și stabilizare,Accident industrial
+2,Luxație de genunchi,Durere intensă și edem,Imobilizare temporară,Accident sportiv
+3,Arsură de gradul II pe gât,Blistere și durere intensă,Pansament steril și cremă antiseptică,Contact cu obiect fierbinte
+1,Accident rutier sever cu coliziune laterală,Traumă craniană și toracică,Resuscitare și stabilizare,Accident auto grav
+4,Tăietură la deget,Sângerare ușoară și disconfort,Pansament și antiseptic,Accident minor
+1,Electrocutare în casă,Inconștiență și arsuri la mâini,Resuscitare,Contact cu cablu electric defect
+2,Bătaie - fractură de mandibulă,Dureri severe și sângerare,Monitorizare și transport,Incident agresiv
+3,Arsură superficială pe gât,Roșeață și senzație de arsură,Pansament simplu,Contact cu abur fierbinte
+1,Accident de muncă - fractură deschisă la braț,Durere intensă și sângerare,Imobilizare și transport de urgență,Accident industrial
+2,Cădere de la înălțime,Durere intensă la nivelul spatelui,Imobilizare și analgezice,Accident de muncă
+3,Entorsă de genunchi,Durere moderată și edem,Imobilizare temporară,Accident sportiv
+4,Vânătaie la cot,Dureri ușoare și edem minor,Analgezice,Impact minor
+1,Accident de muncă - fractură deschisă la picior,Durere severă și sângerare,Imobilizare și transport la spital,Accident industrial
+2,Coliziune auto - impact lateral,Durere toracică și amețeli,Monitorizare și radiografie,Accident rutier
+3,Luxație de gleznă,Dureri și dificultate la mers,Imobilizare temporară,Accident sportiv
+4,Tăietură ușoară la deget,Sângerare minoră; disconfort,Pansament simplu,Accident în bucătărie
+2,Fractură de claviculă după impact,Dureri severe la umăr,Imobilizare,Accident sportiv
+3,Durere lombară după ridicarea de greutăți,Durere și edem moderat,Analgezice și repaus,Accident casnic
+1,Accident rutier sever - impact frontal,Fractură de coaste și traumatism cranian,Stabilizare și transport la spital,Accident rutier grav
+2,Leziuni ușoare după bătaie,Durere moderată la nivelul toracelui,Monitorizare,Incident agresiv
+3,Arsură de gradul I pe picior,Roșeață și disconfort,Cremă antiseptică,Accident casnic
+4,Contuzie ușoară la braț,Dureri moderate și edem,Pansament și repaus,Impact minor
+1,Traumatism sever la cap,Inconștiență și sângerare,CT și stabilizare,Accident rutier grav
+3,Luxație de umăr,Dureri și mobilitate redusă,Imobilizare temporară,Accident sportiv
+1,Arsură severă de gradul III pe picior,Dureri severe și leziuni extinse,Pansament steril și analgezice,Accident industrial
+4,Contuzie ușoară la genunchi,Edem și dureri minore,Repaus și analgezice,Accident casnic
+1,Intoxicație cu fum într-un incendiu,Dificultăți severe de respirație,Administrare oxigen și monitorizare,Incendiu industrial
+2,Contuzie abdominală după lovitură,Dureri intense la palpare,Monitorizare,Incident în timpul sportului
+3,Tulburări de vedere după impact,Dureri oculare și amețeli,Consultație oftalmologică,Accident casnic
+4,Roz pe față și dureri minore,Cremă antiinflamatoare,Accident casnic
+1,Arsură de gradul III pe braț și torace,Durere extremă și șoc,Pansament steril,Incendiu industrial
+2,Leziuni la cap după cădere,Confuzie și durere,Monitorizare și analgezice,Accident casnic
+3,Luxație de gleznă,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+1,Fractură deschisă la femur,Durere intensă și sângerare,Imobilizare,Accident rutier
+3,Entorsă de gleznă,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+1,Accident de muncă cu traumatism cranian,Inconștiență; sângerare abundentă,Stabilizare și transport la spital,Impact cu echipament greu
+1,Accident auto - coliziune frontală,Fractură de femur; traumatism cranian,Imobilizare și transport de urgență,Accident rutier grav
+2,Cădere de la înălțime pe spate,Dureri toracice; dificultate la respirație,Imobilizare și radiografie,Accident la locul de muncă
+3,Arsură de gradul II pe antebraț,Blistere și durere intensă,Pansament steril și cremă antiseptică,Contact cu obiect fierbinte
+4,Tăietură superficială la deget,Sângerare ușoară,Pansament și antiseptic,Accident casnic
+1,Inhalare de fum într-un incendiu,Dificultăți respiratorii severe,Administrare oxigen și monitorizare,Incendiu industrial
+2,Fractură de umăr după cădere,Dureri severe; mobilitate redusă,Imobilizare și analgezice,Accident casnic
+3,Entorsă de gleznă,Dureri moderate și edem,Imobilizare temporară și analgezice,Accident sportiv
+4,Contuzie ușoară la cot,Dureri minore; edem,Pansament simplu,Impact minor
+1,Accident rutier sever cu mai multe leziuni,Traumatism toracic și fractură de femur,Resuscitare și stabilizare,Coliziune auto
+2,Bătaie - fractură de mandibulă,Dureri severe și sângerare,Imobilizare și transport,Incident agresiv
+3,Arsură de gradul I pe picior,Roșeață și disconfort,Cremă antiseptică,Accident casnic
+1,Accident de muncă cu electrocutare severă,Arsuri la mâini și pierderea conștienței,Resuscitare și transport de urgență,Contact cu cablu electric
+2,Cădere de pe scară,Dureri la nivelul toracelui și spatelui,Imobilizare și monitorizare,Accident în construcții
+3,Luxație de umăr,Dureri moderate; mobilitate limitată,Imobilizare temporară și analgezice,Accident sportiv
+4,Vânătaie la genunchi,Dureri ușoare,Pansament și repaus,Accident casnic
+1,Arsură de gradul III la picior și mână,Durere extremă și șoc,Pansament steril și analgezice,Accident industrial
+2,Bătaie - contuzie toracică,Durere la nivelul coastelor,Monitorizare și analgezice,Incident violent
+3,Contuzie la nivelul coloanei,Dureri moderate și dificultate la mișcare,Imobilizare temporară,Accident la muncă
+4,Rozacee minoră la față,Roșeață și disconfort,Cremă antiinflamatoare,Reacție alergică ușoară
+1,Arsură severă de gradul III la față,Durere intensă și risc de șoc,Pansament și analgezice,Incendiu industrial
+2,Luxație de cot după cădere,Dureri severe; umflături mari,Imobilizare și analgezice,Accident casnic
+3,Entorsă la gleznă,Dureri moderate și dificultate la mers,Imobilizare temporară,Accident sportiv
+4,Tăietură la deget,Sângerare ușoară,Pansament și antiseptic,Accident minor
+1,Traumatism sever la cap în urma unui accident auto,Confuzie și sângerare masivă,Stabilizare și transport,Accident rutier grav
+2,Bătaie - leziuni la nivelul feței,Durere și sângerare,Monitorizare și transport,Incident violent
+3,Luxație de umăr,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+4,Contuzie la antebraț,Dureri minore,Pansament simplu,Impact ușor
+1,Arsură de gradul III pe braț,Leziuni severe și durere intensă,Pansament steril și analgezice,Accident industrial
+2,Intoxicație alimentară,Dureri abdominale severe,Monitorizare și fluide i.v.,Mâncare alterată
+3,Bătaie cu lovituri la abdomen,Dureri moderate; sângerare minoră,Monitorizare și analgezice,Incident agresiv
+4,Erupție cutanată la braț,Mâncărime și roșeață,Cremă antihistaminică,Reacție alergică ușoară
+2,Accident de muncă cu cădere pe spate,Dureri toracice și dificultăți de respirație,Imobilizare și radiografie,Impact sever
+3,Arsură de gradul II la mână,Durere intensă și blistere,Pansament steril și cremă antiseptică,Accident casnic
+1,Accident rutier grav - fractură de femur și traumă craniană,Inconștiență și sângerare,Stabilizare și transport,Coliziune auto frontală
+2,Contuzie toracică după impact,Dureri moderate la nivelul coastelor,Monitorizare și analgezice,Accident de muncă
+3,Luxație de genunchi,Dureri moderate și dificultăți la mers,Imobilizare temporară și analgezice,Accident sportiv
+4,Tăietură minoră la mână,Sângerare ușoară,Pansament și antiseptic,Accident minor
+1,Electrocutare severă în accident industrial,Arsuri și pierderea conștienței,Resuscitare și transport,Contact cu cablu electric
+2,Leziuni faciale după bătaie,Dureri severe și vânătăi,Monitorizare și transport,Incident agresiv
+3,Arsură de gradul I pe picior,Roșeață și disconfort ușor,Cremă antiseptică,Accident casnic
+4,Vânătaie la cot,Dureri ușoare și edem,Pansament simplu,Accident casnic
+1,Accident de muncă - fractură deschisă la picior,Durere severă și sângerare,Imobilizare și transport,Accident industrial
+2,Intoxicație alimentară cu vărsături,Dureri abdominale și greață,Monitorizare și hidratare,Consum de alimente alterate
+3,Entorsă de gleznă,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+4,Durere la cot după cădere,Dureri ușoare,Imobilizare,Impact minor
+1,Arsură de gradul III la antebraț și torace,Dureri severe și blistere,Pansament steril și analgezice,Accident industrial
+2,Accident de muncă cu strivire la mână,Dureri severe și umflături,Imobilizare și transport,Impact cu echipament industrial
+3,Luxație de gleznă,Dureri moderate și edem,Imobilizare temporară,Accident sportiv
+4,Contuzie la antebraț,Dureri minore și vânătaie,Repaus,Accident ușor
