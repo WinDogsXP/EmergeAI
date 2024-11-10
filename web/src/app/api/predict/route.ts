@@ -31,6 +31,9 @@ export async function POST(req: NextRequest) {
             "https://0b10-185-53-198-10.ngrok-free.app/predict",
             {
                 method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
                 body: formData as unknown as BodyInit | null | undefined,
             }
         );
