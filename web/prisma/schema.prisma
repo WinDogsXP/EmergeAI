@@ -7,46 +7,15 @@ datasource db {
     url      = env("DATABASE_URL")
 }
 
-model Parent {
-    id String @id @default(uuid())
-
-    address     String
-    addressLat  Float
-    addressLong Float
-
-    schoolAdress String
-    schoolLat    Float
-    schoolLong   Float
-
-    Kid     Kid[]
-    Group   Group?  @relation(fields: [groupId], references: [id])
-    groupId String?
-}
-
-model Kid {
-    id       String  @id @default(uuid())
-    parent   Parent  @relation(fields: [parentid], references: [id])
-    parentid String
-    Group    Group?  @relation(fields: [groupId], references: [id])
-    groupId  String?
-}
-
-model Group {
-    id      String   @id @default(uuid())
-    parents Parent[]
-    kids    Kid[]
-    Ride    Ride[]
-}
-
-model Ride {
-    id    String @id @default(uuid())
-    group Group  @relation(fields: [groupId], references: [id])
-
-    startLong Float
-    startLat  Float
-
-    endLong Float
-    endLat  Float
-
-    groupId String
+model Arrival {
+    id        Int       @id @default(autoincrement())
+    age       String    @default("")
+    name      String    @default("")
+    gender    String    @default("")
+    medic     String    @default("")
+    status    Int       @default(0)
+    urgency   Int       @default(5)
+    verified  Boolean   @default(false)
+    arrivedAt DateTime?
+    createdAt DateTime  @default(now())
 }
