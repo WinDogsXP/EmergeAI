@@ -17,7 +17,6 @@ type PredictionResponse = {
 
 export async function POST(req: NextRequest) {
     try {
-        const formData = new FormData();
         const req_json = await req.json();
         const text = req_json.text;
 
@@ -25,7 +24,7 @@ export async function POST(req: NextRequest) {
             return new NextResponse("Text not provided", { status: 400 });
         }
 
-        formData.append("text", text);
+        console.log(text);
 
         const transcriptionResponse = await fetch(
             "https://0b10-185-53-198-10.ngrok-free.app/predict",
@@ -34,7 +33,7 @@ export async function POST(req: NextRequest) {
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: formData as unknown as BodyInit | null | undefined,
+                body: JSON.stringify({ text: text }),
             }
         );
 
