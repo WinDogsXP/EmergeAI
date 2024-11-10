@@ -71,24 +71,30 @@ export default function AudioRecorder() {
             const transcriptionData = await transcriptionResponse.json();
             const transcriptionText = transcriptionData.text;
 
-            const gptResponse = await fetch("/api/format", {
+            console.log(transcriptionData);
+
+            setTranscriptionResult(transcriptionText);
+
+            const gptResponse = await fetch("/api/predict", {
                 method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ transcriptionText }),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ text: transcriptionText }),
             });
 
-            if (!gptResponse.ok) {
-                throw new Error(`Error from GPT-4: ${gptResponse.statusText}`);
-            }
+            console.log(gptResponse);
+            // setTranscriptionResult(transcriptionText + gptResponse);
 
-            const gptData = await gptResponse.json();
-            setTranscriptionResult(gptData.choices[0].message.content);
+            if (!gptResponse.ok) {
+                throw new Error(`Error: ${gptResponse.statusText}`);
+            }
         } catch (error) {
             console.error(
                 "Error processing transcription or GPT request:",
                 error
             );
-            setTranscriptionResult("Action failed. Check console.");
+            // setTranscriptionResult("Action failed. Check console.");
         }
     };
 
