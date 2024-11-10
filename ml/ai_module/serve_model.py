@@ -1,30 +1,35 @@
 import requests
 
-def get_gpt_response(transcription_text,app):
-    url = "https://api.openai.com/v1/chat/completions"
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {app.config['SECRET_OPEN_AI_KEY']}"
-    }
-    data = {
-        "model": "gpt-4",
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    'You are a helpful assistant that extracts data from a text and converts it into a JSON format suitable for filling an emergency form. Here\'s an example of what I expect: { "id112": "12345", "priority": 1, "status": "In Progress", "case": "Emergency Case", "description": "Person unconscious", "county": "County Name", "municipality": "Municipality", "street": "Street Name", "block": "Block", "floor": "Floor", "intercom": "Intercom", "location": "Reference Location", "age": 45, "ageUnit": "years", "gender": "male", "cnp": "1234567890123", "phone": "5551234567" }. DO NOT INCLUDE ANYTHING ELSE OTHER THAN THE JSON'
-                )
-            },
-            {
-                "role": "user",
-                "content": f"Transcription: {transcription_text}. Format the details into a JSON that can be used to fill the form fields."
-            }
-        ]
-    }
-    response = requests.post(url, headers=headers, json=data)
-    response.raise_for_status()
-    return response.json()
 
 
-def serve_openai():
-    return "SERVE MODEL"
+from flask import Flask, request, jsonify
+import pandas as pd
+import joblib
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+app = Flask(__name__)
+
+# Încarcă modelul RandomForest și vectorizatorul TF-IDF
+model = joblib.load('model_triaj_rf.pkl')
+vectorizer = joblib.load('vectorizer_tfidf.pkl')
+
+@app.route('/predict', methods=['POST'])
+def predict():
+    # Primește datele JSON de la cerere
+    data = request.get_json()
+    if not data or 'text' not in data:
+        return jsonify({'error': 'Lipsă câmpul text pentru predicție'}), 400
+
+    # Preprocesarea textului primit
+    input_text = data['text']
+    input_vectorized = vectorizer.transform([input_text])
+
+    # Realizează predicția
+    prediction = model.predict(input_vectorized)
+    predicted_class = int(prediction[0])
+
+    # Returnează predicția ca răspuns JSON
+    return jsonify({'NivelUrgenta': predicted_class})
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -1,3 +1,5 @@
+from crypt import methods
+
 from flask import Flask, request, jsonify
 from ml.ai_module.serve_model import get_gpt_response
 from dotenv import load_dotenv
@@ -9,6 +11,10 @@ load_dotenv()
 app = Flask(__name__)
 
 app.config['SECRET_OPEN_AI_KEY'] = os.getenv("SECRET_OPEN_AI_KEY")
+
+@app.route('/get_voice_transcript', methods=['GET'])
+def get_voice_transcript():
+    
 
 @app.route('/predict', methods=['POST'])
 def make_prediction():
